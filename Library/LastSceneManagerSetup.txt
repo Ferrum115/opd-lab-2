@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
