@@ -1,18 +1,18 @@
 {
   "context": {
-    "projectPath": "C:/Users/MSI/OPD_laba_2/Packages",
+    "projectPath": "/home/mage/opd_lab_2/Packages",
     "unityVersion": "6000.6.3f1"
   },
   "inputs": [
-    "C:\\Users\\MSI\\OPD_laba_2\\Packages\\manifest.json",
-    "C:\\Users\\MSI\\OPD_laba_2\\Packages\\packages-lock.json",
-    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.3f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+    "/home/mage/opd_lab_2/Packages/manifest.json",
+    "/home/mage/opd_lab_2/Packages/packages-lock.json",
+    "/home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.ai.navigation@2.0.14": {
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.ai.navigation@134dd6a3b97b",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.ai.navigation@134dd6a3b97b",
       "fingerprint": "134dd6a3b97bb75be809e267fbcd9c5071579dd2",
       "editorCompatibility": "6000.0.0a1",
       "version": "2.0.14",
@@ -22,7 +22,7 @@
     "com.unity.collab-proxy@2.13.6": {
       "name": "com.unity.collab-proxy",
       "displayName": "Unity Version Control",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.collab-proxy@4628d2ba6ea4",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4",
       "fingerprint": "4628d2ba6ea45aaa16a8b78239d0f6f9c2176982",
       "editorCompatibility": "6000.0.0a1",
       "version": "2.13.6",
@@ -32,7 +32,7 @@
     "com.unity.ide.rider@3.0.38": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.ide.rider@1f60b3138684",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.ide.rider@1f60b3138684",
       "fingerprint": "1f60b3138684c97af67aa8d911b1632ba916d29d",
       "editorCompatibility": "2021.3.0a1",
       "version": "3.0.38",
@@ -42,7 +42,7 @@
     "com.unity.ide.visualstudio@2.0.26": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.ide.visualstudio@a99d56dec63f",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f",
       "fingerprint": "a99d56dec63ffb3a911a5a9bce9b77ba862a601c",
       "editorCompatibility": "2021.3.0a1",
       "version": "2.0.26",
@@ -52,7 +52,7 @@
     "com.unity.inputsystem@1.20.0": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.inputsystem@7a4e1a2a8194",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194",
       "fingerprint": "7a4e1a2a81941121ffc0721a14009b46299dada1",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.20.0",
@@ -62,8 +62,8 @@
     "com.unity.render-pipelines.universal@17.6.0": {
       "name": "com.unity.render-pipelines.universal",
       "displayName": "Universal Render Pipeline",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.render-pipelines.universal@327d93d1cbc8",
-      "fingerprint": "327d93d1cbc8d7adc3890050093d8c3ced103c5d",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.render-pipelines.universal@0ffb3d4f1461",
+      "fingerprint": "0ffb3d4f146187261d02f5836d44056ebe08c229",
       "version": "17.6.0",
       "source": "builtin",
       "testable": false
@@ -71,8 +71,8 @@
     "com.unity.test-framework@1.8.0": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.test-framework@80f691d4262b",
-      "fingerprint": "80f691d4262b2aaf0b537d8eaac07de186b094b1",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.test-framework@33f8a1e9aefd",
+      "fingerprint": "33f8a1e9aefd70df9b79eced968f271c0a4b1c51",
       "version": "1.8.0",
       "source": "builtin",
       "testable": false
@@ -80,8 +80,8 @@
     "com.unity.timeline@6.6.0": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.timeline@c56d56b0070b",
-      "fingerprint": "c56d56b0070b3948146a9d1838d72ac8f3fb10c6",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.timeline@9cd41035b3ab",
+      "fingerprint": "9cd41035b3ab69ef5c3c1e89412414559852ca17",
       "version": "6.6.0",
       "source": "builtin",
       "testable": false
@@ -89,8 +89,8 @@
     "com.unity.ugui@2.6.0": {
       "name": "com.unity.ugui",
       "displayName": "uGUI",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.ugui@0727b404f3a0",
-      "fingerprint": "0727b404f3a0e044a73565dc8a9ee10fa68be22b",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.ugui@88d0d51315d3",
+      "fingerprint": "88d0d51315d3269ddd87da008f6e479280a55160",
       "version": "2.6.0",
       "source": "builtin",
       "testable": false
@@ -98,7 +98,7 @@
     "com.unity.visualscripting@1.9.12": {
       "name": "com.unity.visualscripting",
       "displayName": "Visual Scripting",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.visualscripting@4edfcc09512f",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.visualscripting@4edfcc09512f",
       "fingerprint": "4edfcc09512f786fe1a7f50476d320b36dab9676",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.9.12",
@@ -108,7 +108,7 @@
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.accessibility",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.accessibility",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -116,7 +116,7 @@
     "com.unity.modules.adaptiveperformance@1.0.0": {
       "name": "com.unity.modules.adaptiveperformance",
       "displayName": "Adaptive Performance",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.adaptiveperformance",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.adaptiveperformance",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -124,7 +124,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.ai",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.ai",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -132,7 +132,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.androidjni",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.androidjni",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -140,7 +140,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.animation",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.animation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -148,7 +148,7 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.assetbundle",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.assetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -156,7 +156,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.audio",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.audio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -164,7 +164,7 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.cloth",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.cloth",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -172,7 +172,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.director",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.director",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -180,7 +180,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.imageconversion",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.imageconversion",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -188,7 +188,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.imgui",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.imgui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -196,7 +196,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.jsonserialize",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.jsonserialize",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -204,7 +204,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.particlesystem",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.particlesystem",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -212,7 +212,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.physics",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.physics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -220,7 +220,7 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.physics2d",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.physics2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -228,7 +228,7 @@
     "com.unity.modules.physicscore2d@1.0.0": {
       "name": "com.unity.modules.physicscore2d",
       "displayName": "Physics Core 2D",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.physicscore2d",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.physicscore2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -236,7 +236,7 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.screencapture",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.screencapture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -244,7 +244,7 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.terrain",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.terrain",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -252,7 +252,7 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.terrainphysics",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.terrainphysics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -260,7 +260,7 @@
     "com.unity.modules.tetgen@1.0.0": {
       "name": "com.unity.modules.tetgen",
       "displayName": "Tetgen",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.tetgen",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.tetgen",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -268,7 +268,7 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.tilemap",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.tilemap",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -276,7 +276,7 @@
     "com.unity.modules.timelinefoundation@1.0.0": {
       "name": "com.unity.modules.timelinefoundation",
       "displayName": "Timeline Foundation",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.timelinefoundation",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.timelinefoundation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -284,7 +284,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.ui",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.ui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -292,7 +292,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.uielements",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -300,7 +300,7 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.umbra",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.umbra",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -308,7 +308,7 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.unityanalytics",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unityanalytics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -316,7 +316,7 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.unitywebrequest",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unitywebrequest",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -324,7 +324,7 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -332,7 +332,7 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unitywebrequestaudio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -340,7 +340,7 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unitywebrequesttexture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -348,7 +348,7 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unitywebrequestwww",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -356,7 +356,7 @@
     "com.unity.modules.vectorgraphics@1.0.0": {
       "name": "com.unity.modules.vectorgraphics",
       "displayName": "Vector Graphics",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.vectorgraphics",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.vectorgraphics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -364,7 +364,7 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.vehicles",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.vehicles",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -372,7 +372,7 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.video",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.video",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -380,7 +380,7 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.wind",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.wind",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -388,7 +388,7 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.xr",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.xr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -396,7 +396,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.subsystems",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -404,7 +404,7 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.modules.hierarchycore",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -412,8 +412,8 @@
     "com.unity.ext.nunit@2.1.0": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.ext.nunit@0198eae3b53e",
-      "fingerprint": "0198eae3b53e4b243332e89e4af7bd396715ad55",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.ext.nunit@508b95ff9afe",
+      "fingerprint": "508b95ff9afebba749610c6bac0176e4fbc0ba6e",
       "version": "2.1.0",
       "source": "builtin",
       "testable": false
@@ -421,8 +421,8 @@
     "com.unity.render-pipelines.core@17.6.0": {
       "name": "com.unity.render-pipelines.core",
       "displayName": "Scriptable Render Pipeline Core",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.render-pipelines.core@02d75770e4b3",
-      "fingerprint": "02d75770e4b3ada4f020a106bcc58499ecece1fe",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.render-pipelines.core@2862bc571443",
+      "fingerprint": "2862bc571443db836d8f43616a845ce3975a0cba",
       "version": "17.6.0",
       "source": "builtin",
       "testable": false
@@ -430,8 +430,8 @@
     "com.unity.shadergraph@17.6.0": {
       "name": "com.unity.shadergraph",
       "displayName": "Shader Graph",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.shadergraph@1dd0fd24b57e",
-      "fingerprint": "1dd0fd24b57e1d676da169fe483cc31a10d8b54c",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.shadergraph@48089545eeac",
+      "fingerprint": "48089545eeace93df2b885508702ea993b738ac5",
       "version": "17.6.0",
       "source": "builtin",
       "testable": false
@@ -439,8 +439,8 @@
     "com.unity.render-pipelines.universal-config@17.6.0": {
       "name": "com.unity.render-pipelines.universal-config",
       "displayName": "Universal Render Pipeline Config",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@561422b74439",
-      "fingerprint": "561422b74439f8598f45a82c4935ca6f1d86f212",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.render-pipelines.universal-config@b1357eef5cd3",
+      "fingerprint": "b1357eef5cd35e78d8a372764090f16655a50a1d",
       "version": "17.6.0",
       "source": "builtin",
       "testable": false
@@ -448,7 +448,7 @@
     "com.unity.searcher@4.9.5": {
       "name": "com.unity.searcher",
       "displayName": "Searcher",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.searcher@a463122f2c00",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.searcher@a463122f2c00",
       "fingerprint": "a463122f2c00f83398f41790942a0793431e70ea",
       "editorCompatibility": "6000.0.0a1",
       "version": "4.9.5",
@@ -458,8 +458,8 @@
     "com.unity.graph-authoring@1.0.0": {
       "name": "com.unity.graph-authoring",
       "displayName": "Graph Authoring",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.graph-authoring@cfd2588851ee",
-      "fingerprint": "cfd2588851ee248c7989396b0917e843c54c1c6d",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.graph-authoring@f8926ccf2c8f",
+      "fingerprint": "f8926ccf2c8fe9afa7c1af7de1f013ddf7de6436",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -467,8 +467,8 @@
     "com.unity.burst@2.0.0": {
       "name": "com.unity.burst",
       "displayName": "Burst",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.burst@626e66ab421b",
-      "fingerprint": "626e66ab421bf31cfa602bb20675290e2a514b01",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.burst@c3ed5b778d56",
+      "fingerprint": "c3ed5b778d5629115f36f7c7fd174bfefbb658e4",
       "version": "2.0.0",
       "source": "builtin",
       "testable": false
@@ -476,8 +476,8 @@
     "com.unity.collections@6.6.0": {
       "name": "com.unity.collections",
       "displayName": "Collections",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.collections@10fff0607388",
-      "fingerprint": "10fff0607388aeb98b314cf1183d493c1e67b9ef",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.collections@431b1d558060",
+      "fingerprint": "431b1d55806010480fc75188f686a2566eacfb66",
       "version": "6.6.0",
       "source": "builtin",
       "testable": false
@@ -485,7 +485,7 @@
     "com.unity.profiling.core@1.0.3": {
       "name": "com.unity.profiling.core",
       "displayName": "Unity Profiling Core API",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.profiling.core@8a49f7027d06",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.profiling.core@8a49f7027d06",
       "fingerprint": "8a49f7027d0618e2cb86aa9e4ed5fb4392e8121a",
       "editorCompatibility": "2020.1.0a1",
       "version": "1.0.3",
@@ -495,7 +495,7 @@
     "com.unity.nuget.mono-cecil@1.11.6": {
       "name": "com.unity.nuget.mono-cecil",
       "displayName": "Mono Cecil",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.nuget.mono-cecil@ecb9724e46ff",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff",
       "fingerprint": "ecb9724e46fff855c46a4f37f0a3377a3cfffc06",
       "editorCompatibility": "2019.4.0a1",
       "version": "1.11.6",
@@ -505,8 +505,8 @@
     "com.unity.test-framework.performance@6.6.0": {
       "name": "com.unity.test-framework.performance",
       "displayName": "Performance testing API",
-      "resolvedPath": "C:\\Users\\MSI\\OPD_laba_2\\Library\\PackageCache\\com.unity.test-framework.performance@b6023decb532",
-      "fingerprint": "b6023decb532a570b0df99e618cb20b0ba6198ba",
+      "resolvedPath": "/home/mage/opd_lab_2/Library/PackageCache/com.unity.test-framework.performance@530c2523cea5",
+      "fingerprint": "530c2523cea5530243ee2d84af4fb4c8639fe6fe",
       "version": "6.6.0",
       "source": "builtin",
       "testable": false

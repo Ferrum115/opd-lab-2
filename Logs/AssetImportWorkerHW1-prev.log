@@ -1,40 +1,76 @@
+[UnityConnectServicesConfig] Local config successfully read: "/usr/share/unity3d/config/services-config.json"
+[UnityConnectServicesConfig] Service configuration:
+    "servicesConfigBaseUrl": "",
+    "disableServicesWindow": false,
+    "disableUserLogin": false,
+    "entitlementCacheTimeoutInSeconds": 60,
+    "clientConnectTimeoutSec": 60,
+    "clientHandshakeTimeoutSec": 30,
+    "clientResolveEntitlementsTimeoutSec": 30,
+    "clientUpdateLicenseTimeoutSec": 30,
+    "licensingServiceBaseUrl": "",
+    "enableProxyAutoconfig": "false"
+
+Unity Editor version:    6000.6.3f1 (45d8eee7de74)
+Branch:                  6000.6/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #1 SMP PREEMPT_DYNAMIC Sat, 26 Sep 2026 19:43:45 +0000
+Kernel version:          7.2.8-1-cachyos
+Architecture:            x86_64
+Window Protocol:         Wayland (XWayland)
+Available memory:        64047 MB
+Date:                    2026-10-01T12:41:18Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-MSI" at "2026-09-30T15:21:14.9929035Z"
-OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 32472 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-System  architecture: x64
-Process architecture: x64
-Date: 2026-09-30T15:21:14Z
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 22332, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mage" at "2026-10-01T12:41:18.74642Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-mage"
+[Licensing::IpcConnector] LicenseClient-mage channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mage-6000.6.3" at "2026-10-01T12:41:18.747239Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              5e946b33757b44c687fb3da6edbcd0de
-  Correlation Id:          e35cd7d0a87048009a7b1555b953f0e6
-  External correlation Id: 2791114955912022458
-  Machine Id:              sxwzM81Ex40/eNcvTTuFU07obCk=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-MSI" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-MSI-notifications" at "2026-09-30T15:21:15.0195531Z"
-[Licensing::Module] Licensing Background thread has ended after 0.03s
+  Session Id:              bc0318b363414de2a46e5bc99e4b9adf
+  Correlation Id:          21d2847bfb82118578d3f6482115f8c1
+  External correlation Id: 8320279011645372442
+  Machine Id:              ff0yPQTja/m1oU2eAGX0rdG7sdg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mage-6000.6.3" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mage-6000.6.3-notifications" at "2026-10-01T12:41:18.748872Z"
+[Licensing::Module] Licensing Background thread has ended after 0.00s
+Selected window backend: (null) 
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 07abfd7b6a95a0fbec3ac7544eb85e3c
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052624
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+Desktop is 2560 x 1600 @ 60 Hz
+Initialize udev device monitor.
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
+unityhub-unity-editor-6000.6.3f1
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorkerHW1
 -projectPath
-C:/Users/MSI/OPD_laba_2
+/home/mage/opd_lab_2
 -logFile
 Logs/AssetImportWorkerHW1.log
 -srvPort
-62304
+46827
 -parentPid
-25288
+3608716
 -analyticsCloudUserId
-5774130951012
+10171631020690
 -analyticsCloudProjectId
 a1edac4b-f7b7-494b-b609-a49f1cf416c8
 -analyticsLocalProjectId
@@ -42,21 +78,21 @@ a1edac4b-f7b7-494b-b609-a49f1cf416c8
 -editorAnalyticsEnabled
 1
 -cbmEditorLicense
-0611f63d9657854fe5faf97fe0b0406b00c24fc5
+b9fcd3483e2b5814f66e14825423dd23f41161ba
 -cbmMachineId
-sxwzM81Ex40/eNcvTTuFU07obCk=
+ff0yPQTja/m1oU2eAGX0rdG7sdg=
+-licensingIpc
+LicenseClient-mage
 -noDiagnosticSwitchPersistentStore
 -job-worker-count
-11
+15
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
--force-d3d12
--name
-AssetImport
-Successfully changed project path to: C:/Users/MSI/OPD_laba_2
-C:/Users/MSI/OPD_laba_2
+-force-vulkan
+Successfully changed project path to: /home/mage/opd_lab_2
+/home/mage/opd_lab_2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -66,13 +102,13 @@ C:/Users/MSI/OPD_laba_2
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-    "memorysetup-temp-allocator-size-gfx=262144"
-    "memorysetup-remapper-allocator-initial-capacity=32768"
     "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
-    "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
     "memorysetup-bucket-allocator-block-size=33554432"
@@ -94,20 +130,19 @@ C:/Users/MSI/OPD_laba_2
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [16268]  Target information:
+Player connection [140370555497216]  Target information:
 
-Player connection [16268]  * "[IP] 172.19.0.1 [Port] 0 [Flags] 2 [Guid] 2033015577 [EditorId] 2033015577 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MTCHHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [140370555497216]  * "[IP] 100.117.44.127 [Port] 0 [Flags] 2 [Guid] 753260040 [EditorId] 753260040 [Version] 1048832 [Id] LinuxEditor(16,10.8.1.77) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [16268]  * "[IP] 192.168.3.10 [Port] 0 [Flags] 2 [Guid] 2033015577 [EditorId] 2033015577 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MTCHHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [140370555497216]  * "[IP] 10.8.1.77 [Port] 0 [Flags] 2 [Guid] 753260040 [EditorId] 753260040 [Version] 1048832 [Id] LinuxEditor(16,10.8.1.77) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [16268] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [16268] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 11
+Player connection [140370555497216] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140370555497216] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
 [Physics::Module] Selected backend (deferred post-plugins).
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -116,64 +151,628 @@ Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
 [Physics::Module] Threading Mode: Multi-Threaded
 Initialize engine version: 6000.6.3f1 (45d8eee7de74)
 [EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/MSI/OPD_laba_2/Assets
-Forcing GfxDevice: Direct3D 12
-GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-d3d12: failed to query info queue interface (0x80004002).
-Direct3D:
-    Version:         Direct3D 12 [level 12.2]
-    Renderer:        NVIDIA GeForce RTX 5070 Laptop GPU (ID=0x2d18)
-    Vendor:          NVIDIA
-    VRAM:            7891 MB
-    App VRAM Budget: 7123 MB
-    Driver:          32.0.16.1047
+[Subsystems] Discovering subsystems at path /home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/mage/opd_lab_2/Assets
+Forcing GfxDevice: Vulkan
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+[vulkan] LoadVulkanLibrary libvulkan.so.1[vulkan] Loaded instance function vkGetInstanceProcAddr
+[vulkan] Loaded instance function vkGetInstanceProcAddr
+[vulkan] Loaded instance function vkCreateInstance
+[vulkan] Loaded instance function vkEnumerateInstanceExtensionProperties
+[vulkan] Loaded instance function vkEnumerateInstanceLayerProperties
+[vulkan] Loaded instance function vkEnumerateInstanceVersion
+[Vulkan init] extensions: count=27
+[Vulkan init] extensions: name=VK_EXT_acquire_drm_display [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_acquire_xlib_display [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_debug_report [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_debug_utils [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_direct_mode_display [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_display_surface_counter [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_headless_surface [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_layer_settings [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_surface_maintenance1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_swapchain_colorspace [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_device_group_creation [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_display [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_get_display_properties2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_portability_enumeration [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_surface [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_surface_maintenance1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_wayland_surface [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_xcb_surface [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_xlib_surface [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_LUNARG_direct_driver_loading [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_display_stereo [enabled=0, external=0]
+[vulkan] Loaded instance function vkDestroyInstance
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties
+[vulkan] Loaded instance function vkEnumeratePhysicalDevices
+[Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
+[Vulkan init] Physical Device 0x55eb51db9910 [0]: "NVIDIA GeForce RTX 4080 Laptop GPU" deviceType=2 vendorID=10de deviceID=27e0
+Vulkan detection: 2
+[Vulkan init] extensions: count=27
+[Vulkan init] extensions: name=VK_EXT_acquire_drm_display [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_acquire_xlib_display [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_debug_report [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_debug_utils [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_direct_mode_display [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_display_surface_counter [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_headless_surface [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_layer_settings [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_surface_maintenance1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_swapchain_colorspace [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_device_group_creation [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_display [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_get_display_properties2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_portability_enumeration [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_surface [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_surface_maintenance1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_wayland_surface [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_xcb_surface [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_xlib_surface [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_LUNARG_direct_driver_loading [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_display_stereo [enabled=0, external=0]
+[vulkan] Loaded instance function vkDestroyInstance
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties
+[vulkan] Loaded instance function vkEnumeratePhysicalDevices
+[vulkan] Loaded instance function vkGetDeviceProcAddr
+[vulkan] Loaded instance function vkGetPhysicalDeviceFeatures
+[vulkan] Loaded instance function vkGetPhysicalDeviceFormatProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceImageFormatProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceQueueFamilyProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties
+[vulkan] Loaded instance function vkCreateDevice
+[vulkan] Loaded instance function vkEnumerateDeviceExtensionProperties
+[vulkan] Loaded instance function vkEnumerateDeviceLayerProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties
+[vulkan] Loaded instance function vkDestroySurfaceKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceSupportKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceCapabilitiesKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceFormatsKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfacePresentModesKHR
+[vulkan] Loaded instance function vkCreateSwapchainKHR
+[vulkan] Loaded instance function vkDestroySwapchainKHR
+[vulkan] Loaded instance function vkGetSwapchainImagesKHR
+[vulkan] Loaded instance function vkAcquireNextImageKHR
+[vulkan] Loaded instance function vkQueuePresentKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceDisplayPropertiesKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceDisplayPlanePropertiesKHR
+[vulkan] Loaded instance function vkGetDisplayPlaneSupportedDisplaysKHR
+[vulkan] Loaded instance function vkGetDisplayModePropertiesKHR
+[vulkan] Loaded instance function vkCreateDisplayModeKHR
+[vulkan] Loaded instance function vkGetDisplayPlaneCapabilitiesKHR
+[vulkan] Loaded instance function vkCreateDisplayPlaneSurfaceKHR
+[vulkan] Loaded instance function vkCreateSharedSwapchainsKHR
+[vulkan] Loaded instance function vkCreateXlibSurfaceKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceXlibPresentationSupportKHR
+[vulkan] Loaded instance function vkSetHdrMetadataEXT
+[vulkan] Loaded instance function vkGetPhysicalDeviceFeatures2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceFormatProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceImageFormatProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceQueueFamilyProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties2KHR
+[vulkan] Loaded instance function vkGetSemaphoreFdKHR
+[vulkan] Loaded instance function vkImportSemaphoreFdKHR
+[vulkan] Loaded instance function vkGetFenceFdKHR
+[vulkan] Loaded instance function vkImportFenceFdKHR
+[vulkan] Loaded instance function vkCreateSamplerYcbcrConversionKHR
+[vulkan] Loaded instance function vkDestroySamplerYcbcrConversionKHR
+[vulkan] Loaded instance function vkBindBufferMemory2KHR
+[vulkan] Loaded instance function vkBindImageMemory2KHR
+[vulkan] Loaded instance function vkWaitForPresentKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceExternalSemaphorePropertiesKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceExternalFencePropertiesKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceFragmentShadingRatesKHR
+[vulkan] Loaded instance function vkSetDebugUtilsObjectNameEXT
+[vulkan] Loaded instance function vkSetDebugUtilsObjectTagEXT
+[vulkan] Loaded instance function vkQueueBeginDebugUtilsLabelEXT
+[vulkan] Loaded instance function vkQueueEndDebugUtilsLabelEXT
+[vulkan] Loaded instance function vkQueueInsertDebugUtilsLabelEXT
+[vulkan] Loaded instance function vkCmdBeginDebugUtilsLabelEXT
+[vulkan] Loaded instance function vkCmdEndDebugUtilsLabelEXT
+[vulkan] Loaded instance function vkCmdInsertDebugUtilsLabelEXT
+[Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
+[Vulkan init] Physical Device 0x55eb51ce7890 [0]: "NVIDIA GeForce RTX 4080 Laptop GPU" deviceType=2 vendorID=10de deviceID=27e0
+[Vulkan init] Selected physical device 0x55eb51ce7890
+[Vulkan init] Graphics queue count=1
+[Vulkan init] extensions: count=290
+[Vulkan init] extensions: name=VK_AMD_buffer_marker [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_4444_formats [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_attachment_feedback_loop_dynamic_state [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_attachment_feedback_loop_layout [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_blend_operation_advanced [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_border_color_swizzle [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_buffer_device_address [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_calibrated_timestamps [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_color_write_enable [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_conditional_rendering [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_conservative_rasterization [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_custom_border_color [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_custom_resolve [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_depth_bias_control [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_depth_clamp_control [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_depth_clamp_zero_one [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_depth_clip_control [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_depth_clip_enable [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_depth_range_unrestricted [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_descriptor_buffer [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_descriptor_heap [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_descriptor_indexing [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_device_address_binding_report [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_device_fault [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_device_generated_commands [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_device_memory_report [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_discard_rectangles [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_display_control [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_dynamic_rendering_unused_attachments [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state3 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_external_memory_dma_buf [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_external_memory_host [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_fragment_shader_interlock [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_global_priority [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_global_priority_query [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_graphics_pipeline_library [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_hdr_metadata [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_host_image_copy [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_host_query_reset [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_image_2d_view_of_3d [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_image_drm_format_modifier [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_image_robustness [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_image_sliced_view_of_3d [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_image_view_min_lod [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_index_type_uint8 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_inline_uniform_block [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_legacy_vertex_attributes [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_line_rasterization [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_load_store_op_none [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_map_memory_placed [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_memory_budget [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_memory_decompression [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_memory_priority [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_mesh_shader [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_multi_draw [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_mutable_descriptor_type [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_nested_command_buffer [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_non_seamless_cube_map [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_opacity_micromap [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_pageable_device_local_memory [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_pci_bus_info [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_physical_device_drm [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_cache_control [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_feedback [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_pipeline_library_group_handles [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_pipeline_robustness [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_post_depth_coverage [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_present_mode_fifo_latest_ready [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_present_timing [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_primitive_restart_index [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_primitive_topology_list_restart [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_primitives_generated_query [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_private_data [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_provoking_vertex [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_queue_family_foreign [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_ray_tracing_invocation_reorder [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_robustness2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_sample_locations [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_sampler_filter_minmax [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_scalar_block_layout [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_separate_stencil_usage [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_64bit_indexing [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_atomic_float [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_demote_to_helper_invocation [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_float8 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_image_atomic_int64 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_long_vector [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_module_identifier [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_object [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_replicated_composites [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_split_barrier [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_ballot [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_partitioned [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_vote [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_uniform_buffer_unsized_array [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_viewport_index_layer [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_subgroup_size_control [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_swapchain_maintenance1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_texel_buffer_alignment [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_tooling_info [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_transform_feedback [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_vertex_attribute_divisor [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_vertex_attribute_robustness [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_vertex_input_dynamic_state [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_ycbcr_2plane_444_formats [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_ycbcr_image_arrays [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_zero_initialize_device_memory [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_GOOGLE_hlsl_functionality1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_GOOGLE_user_type [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_16bit_storage [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_8bit_storage [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_acceleration_structure [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_bind_memory2 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_buffer_device_address [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_calibrated_timestamps [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_compute_shader_derivatives [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_cooperative_matrix [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_copy_commands2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_copy_memory_indirect [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_create_renderpass2 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_dedicated_allocation [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_deferred_host_operations [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_depth_clamp_zero_one [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_depth_stencil_resolve [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_descriptor_update_template [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_device_address_commands [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_device_fault [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_device_group [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_draw_indirect_count [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_driver_properties [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_dynamic_rendering [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_dynamic_rendering_local_read [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_fence [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_fence_fd [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_memory [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_memory_fd [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_semaphore [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_fd [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_format_feature_flags2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_fragment_shader_barycentric [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_fragment_shading_rate [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_get_memory_requirements2 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_global_priority [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_image_format_list [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_imageless_framebuffer [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_incremental_present [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_index_type_uint8 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_internally_synchronized_queues [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_line_rasterization [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_load_store_op_none [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance1 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance10 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance11 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance2 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance3 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance4 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance5 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance6 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance7 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance8 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance9 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_map_memory2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_multiview [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_opacity_micromap [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_pipeline_binary [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_pipeline_executable_properties [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_pipeline_library [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_present_id [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_present_id2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_present_mode_fifo_latest_ready [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_present_wait [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_present_wait2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_push_descriptor [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_ray_query [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_maintenance1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_pipeline [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_position_fetch [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_relaxed_block_layout [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_robustness2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_sampler_mirror_clamp_to_edge [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_separate_depth_stencil_layouts [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_abort [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_atomic_int64 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_bfloat16 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_clock [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_constant_data [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_draw_parameters [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_expect_assume [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_float16_int8 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_float_controls [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_float_controls2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_fma [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_integer_dot_product [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_maximal_reconvergence [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_non_semantic_info [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_quad_control [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_relaxed_extended_instruction [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_extended_types [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_rotate [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_uniform_control_flow [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_terminate_invocation [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_untyped_pointers [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shared_presentable_image [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_spirv_1_4 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_storage_buffer_storage_class [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_swapchain [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_swapchain_maintenance1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_swapchain_mutable_format [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_synchronization2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_timeline_semaphore [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_unified_image_layouts [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_uniform_buffer_standard_layout [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_variable_pointers [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_vertex_attribute_divisor [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_decode_av1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_decode_h264 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_decode_h265 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_decode_queue [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_decode_vp9 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_encode_av1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_encode_h264 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_encode_h265 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_encode_intra_refresh [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_encode_quantization_map [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_encode_queue [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_maintenance1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_maintenance2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_queue [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_vulkan_memory_model [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_workgroup_memory_explicit_layout [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_zero_initialize_workgroup_memory [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NVX_binary_import [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NVX_image_view_handle [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NVX_multiview_per_view_attributes [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_clip_space_w_scaling [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_cluster_acceleration_structure [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_compute_occupancy_priority [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_compute_shader_derivatives [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_cooperative_matrix [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_cooperative_matrix2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_cooperative_matrix_decode_vector [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_cooperative_vector [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_copy_memory_indirect [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_corner_sampled_image [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_coverage_reduction_mode [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_cuda_kernel_launch [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation_image_aliasing [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_descriptor_pool_overallocation [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_device_diagnostic_checkpoints [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_device_diagnostics_config [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_device_generated_commands [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_device_generated_commands_compute [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_disk_cache_utils [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_extended_sparse_address_space [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_fill_rectangle [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_fragment_coverage_to_color [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_fragment_shader_barycentric [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_fragment_shading_rate_enums [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_framebuffer_mixed_samples [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_geometry_shader_passthrough [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_inherited_viewport_scissor [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_internal_handle [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_internal_nvpresent [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_linear_color_attachment [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_low_latency [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_low_latency2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_memory_decompression [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_mesh_shader [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_optical_flow [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_partitioned_acceleration_structure [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_present_metering [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_push_constant_bank [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_raw_access_chains [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_ray_tracing [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_ray_tracing_invocation_reorder [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_ray_tracing_motion_blur [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_representative_fragment_test [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_sample_mask_override_coverage [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_scissor_exclusive [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_shader_atomic_float16_vector [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_shader_image_footprint [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_shader_sm_builtins [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_shader_subgroup_partitioned [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_shading_rate_image [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_viewport_array2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_viewport_swizzle [enabled=0, external=0]
+[vulkan] Loaded device function vkDestroyDevice
+[vulkan] Loaded device function vkGetDeviceQueue
+[vulkan] Loaded device function vkQueueSubmit
+[vulkan] Loaded device function vkQueueWaitIdle
+[vulkan] Loaded device function vkDeviceWaitIdle
+[vulkan] Loaded device function vkAllocateMemory
+[vulkan] Loaded device function vkFreeMemory
+[vulkan] Loaded device function vkMapMemory
+[vulkan] Loaded device function vkUnmapMemory
+[vulkan] Loaded device function vkFlushMappedMemoryRanges
+[vulkan] Loaded device function vkInvalidateMappedMemoryRanges
+[vulkan] Loaded device function vkGetDeviceMemoryCommitment
+[vulkan] Loaded device function vkBindBufferMemory
+[vulkan] Loaded device function vkBindImageMemory
+[vulkan] Loaded device function vkGetBufferMemoryRequirements
+[vulkan] Loaded device function vkGetImageMemoryRequirements
+[vulkan] Loaded device function vkGetImageSparseMemoryRequirements
+[vulkan] Loaded device function vkQueueBindSparse
+[vulkan] Loaded device function vkCreateFence
+[vulkan] Loaded device function vkDestroyFence
+[vulkan] Loaded device function vkResetFences
+[vulkan] Loaded device function vkGetFenceStatus
+[vulkan] Loaded device function vkWaitForFences
+[vulkan] Loaded device function vkCreateSemaphore
+[vulkan] Loaded device function vkDestroySemaphore
+[vulkan] Loaded device function vkCreateEvent
+[vulkan] Loaded device function vkDestroyEvent
+[vulkan] Loaded device function vkGetEventStatus
+[vulkan] Loaded device function vkSetEvent
+[vulkan] Loaded device function vkResetEvent
+[vulkan] Loaded device function vkCreateQueryPool
+[vulkan] Loaded device function vkDestroyQueryPool
+[vulkan] Loaded device function vkGetQueryPoolResults
+[vulkan] Loaded device function vkCreateBuffer
+[vulkan] Loaded device function vkDestroyBuffer
+[vulkan] Loaded device function vkCreateBufferView
+[vulkan] Loaded device function vkDestroyBufferView
+[vulkan] Loaded device function vkCreateImage
+[vulkan] Loaded device function vkDestroyImage
+[vulkan] Loaded device function vkGetImageSubresourceLayout
+[vulkan] Loaded device function vkCreateImageView
+[vulkan] Loaded device function vkDestroyImageView
+[vulkan] Loaded device function vkCreateShaderModule
+[vulkan] Loaded device function vkDestroyShaderModule
+[vulkan] Loaded device function vkCreatePipelineCache
+[vulkan] Loaded device function vkDestroyPipelineCache
+[vulkan] Loaded device function vkGetPipelineCacheData
+[vulkan] Loaded device function vkMergePipelineCaches
+[vulkan] Loaded device function vkCreateGraphicsPipelines
+[vulkan] Loaded device function vkCreateComputePipelines
+[vulkan] Loaded device function vkDestroyPipeline
+[vulkan] Loaded device function vkCreatePipelineLayout
+[vulkan] Loaded device function vkDestroyPipelineLayout
+[vulkan] Loaded device function vkCreateSampler
+[vulkan] Loaded device function vkDestroySampler
+[vulkan] Loaded device function vkCreateDescriptorSetLayout
+[vulkan] Loaded device function vkDestroyDescriptorSetLayout
+[vulkan] Loaded device function vkCreateDescriptorPool
+[vulkan] Loaded device function vkDestroyDescriptorPool
+[vulkan] Loaded device function vkResetDescriptorPool
+[vulkan] Loaded device function vkAllocateDescriptorSets
+[vulkan] Loaded device function vkFreeDescriptorSets
+[vulkan] Loaded device function vkUpdateDescriptorSets
+[vulkan] Loaded device function vkCreateFramebuffer
+[vulkan] Loaded device function vkDestroyFramebuffer
+[vulkan] Loaded device function vkCreateRenderPass
+[vulkan] Loaded device function vkDestroyRenderPass
+[vulkan] Loaded device function vkGetRenderAreaGranularity
+[vulkan] Loaded device function vkCreateCommandPool
+[vulkan] Loaded device function vkDestroyCommandPool
+[vulkan] Loaded device function vkResetCommandPool
+[vulkan] Loaded device function vkAllocateCommandBuffers
+[vulkan] Loaded device function vkFreeCommandBuffers
+[vulkan] Loaded device function vkBeginCommandBuffer
+[vulkan] Loaded device function vkEndCommandBuffer
+[vulkan] Loaded device function vkResetCommandBuffer
+[vulkan] Loaded device function vkCmdBindPipeline
+[vulkan] Loaded device function vkCmdSetViewport
+[vulkan] Loaded device function vkCmdSetScissor
+[vulkan] Loaded device function vkCmdSetLineWidth
+[vulkan] Loaded device function vkCmdSetDepthBias
+[vulkan] Loaded device function vkCmdSetBlendConstants
+[vulkan] Loaded device function vkCmdSetDepthBounds
+[vulkan] Loaded device function vkCmdSetStencilCompareMask
+[vulkan] Loaded device function vkCmdSetStencilWriteMask
+[vulkan] Loaded device function vkCmdSetStencilReference
+[vulkan] Loaded device function vkCmdBindDescriptorSets
+[vulkan] Loaded device function vkCmdBindIndexBuffer
+[vulkan] Loaded device function vkCmdBindVertexBuffers
+[vulkan] Loaded device function vkCmdDraw
+[vulkan] Loaded device function vkCmdDrawIndexed
+[vulkan] Loaded device function vkCmdDrawIndirect
+[vulkan] Loaded device function vkCmdDrawIndexedIndirect
+[vulkan] Loaded device function vkCmdDispatch
+[vulkan] Loaded device function vkCmdDispatchIndirect
+[vulkan] Loaded device function vkCmdCopyBuffer
+[vulkan] Loaded device function vkCmdCopyImage
+[vulkan] Loaded device function vkCmdBlitImage
+[vulkan] Loaded device function vkCmdCopyBufferToImage
+[vulkan] Loaded device function vkCmdCopyImageToBuffer
+[vulkan] Loaded device function vkCmdUpdateBuffer
+[vulkan] Loaded device function vkCmdFillBuffer
+[vulkan] Loaded device function vkCmdClearColorImage
+[vulkan] Loaded device function vkCmdClearDepthStencilImage
+[vulkan] Loaded device function vkCmdClearAttachments
+[vulkan] Loaded device function vkCmdResolveImage
+[vulkan] Loaded device function vkCmdSetEvent
+[vulkan] Loaded device function vkCmdResetEvent
+[vulkan] Loaded device function vkCmdWaitEvents
+[vulkan] Loaded device function vkCmdPipelineBarrier
+[vulkan] Loaded device function vkCmdBeginQuery
+[vulkan] Loaded device function vkCmdEndQuery
+[vulkan] Loaded device function vkCmdResetQueryPool
+[vulkan] Loaded device function vkCmdWriteTimestamp
+[vulkan] Loaded device function vkCmdCopyQueryPoolResults
+[vulkan] Loaded device function vkCmdPushConstants
+[vulkan] Loaded device function vkCmdBeginRenderPass
+[vulkan] Loaded device function vkCmdNextSubpass
+[vulkan] Loaded device function vkCmdEndRenderPass
+[vulkan] Loaded device function vkCmdExecuteCommands
+[vulkan] Loaded device function vkGetImageMemoryRequirements2KHR
+[vulkan] Loaded device function vkGetBufferMemoryRequirements2KHR
+[vulkan] Loaded device function vkGetImageSparseMemoryRequirements2KHR
+[vulkan] Loaded device function vkCreateDescriptorUpdateTemplateKHR
+[vulkan] Loaded device function vkDestroyDescriptorUpdateTemplateKHR
+[vulkan] Loaded device function vkUpdateDescriptorSetWithTemplateKHR
+[vulkan] Loaded device function vkCmdBeginRenderPass2KHR
+[vulkan] Loaded device function vkCmdEndRenderPass2KHR
+[vulkan] Loaded device function vkCmdNextSubpass2KHR
+[vulkan] Loaded device function vkCreateRenderPass2KHR
+[vulkan] Loaded device function vkCmdSetVertexInputEXT
+[vulkan] Loaded device function vkCmdSetFragmentShadingRateKHR
+[vulkan] Failed to load device function vkGetFramebufferTilePropertiesQCOM
+[vulkan] Loaded instance function vkGetFramebufferTilePropertiesQCOM
+[vulkan] Failed to load device function vkDebugMarkerSetObjectTagEXT
+[vulkan] Loaded instance function vkDebugMarkerSetObjectTagEXT
+[vulkan] Failed to load device function vkDebugMarkerSetObjectNameEXT
+[vulkan] Loaded instance function vkDebugMarkerSetObjectNameEXT
+[vulkan] Failed to load device function vkCmdDebugMarkerBeginEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerBeginEXT
+[vulkan] Failed to load device function vkCmdDebugMarkerEndEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerEndEXT
+[vulkan] Failed to load device function vkCmdDebugMarkerInsertEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerInsertEXT
+Vulkan API version 1.1.0 (1.4.351 supported by driver, 1.1.0 requested)
+Vulkan vendor=[NVIDIA] id=[10de]
+Vulkan renderer=[NVIDIA GeForce RTX 4080 Laptop GPU] id=[27e0]
+Vulkan device type 2
+Vulkan driverversion=[615.284.576 (0x99d1c240)] uint=[-1714306496]
+Vulkan driverLibraryString=[NVIDIA (4), 615.71.09]
+Vulkan PSO: Cache data successfully loaded [size=78654,path=/tmp/DefaultCompany/OPD_laba_2/vulkan_pso_cache.bin]
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
-Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Mono path[0] = '/home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
+Mono path[1] = '/home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = '/home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56478
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001567 seconds.
-Native extension for WindowsStandalone target not found
+Register platform support module: /home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.000699 seconds.
+Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.424 seconds
-Domain Reload Profiling: 1001ms
-	BeginReloadAssembly (131ms)
-	RebuildCommonClasses (5ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (359ms)
-		LoadAssemblies (129ms)
-		TypeCache.Refresh (247ms)
-			TypeCache.ScanAssembly (228ms)
-		AnalyzeDomain (1ms)
-	FinalizeReload (425ms)
+- Finished resetting the current domain, in  0.347 seconds
+Domain Reload Profiling: 670ms
+	BeginReloadAssembly (47ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (47ms)
+		TypeCache.Refresh (151ms)
+			TypeCache.ScanAssembly (141ms)
+		AnalyzeDomain (0ms)
+	FinalizeReload (347ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (88ms)
-			ProcessInitializeOnLoadMethodAttributes (139ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (69ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: F4-JT8S-VX4V-2PXU-5UM5-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 5774130951012-UnityPersXXXX
+  Id: 10171631020690-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
@@ -183,7 +782,7 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for WindowsStandalone target not found
+Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -193,28 +792,27 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.549 seconds
-Domain Reload Profiling: 1275ms
-	BeginReloadAssembly (163ms)
-		DisableScriptedObjects (6ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (7ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (497ms)
-		LoadAssemblies (258ms)
-		TypeCache.Refresh (148ms)
-			TypeCache.ScanAssembly (135ms)
-		AnalyzeDomain (56ms)
-			BuildScriptInfoCaches (51ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (550ms)
+- Finished resetting the current domain, in  0.453 seconds
+Domain Reload Profiling: 969ms
+	BeginReloadAssembly (108ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (367ms)
+		LoadAssemblies (154ms)
+		TypeCache.Refresh (112ms)
+			TypeCache.ScanAssembly (100ms)
+		AnalyzeDomain (41ms)
+			BuildScriptInfoCaches (37ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (454ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (218ms)
-			ProcessInitializeOnLoadMethodAttributes (77ms)
-			AfterProcessingInitializeOnLoad (4ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (196ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
@@ -222,212 +820,111 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Unloading 98 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6676 unused Assets / (12.5 MB). Loaded Objects now: 7324.
-Memory consumption went from 331.6 MB to 319.1 MB.
-Total: 7.393800 ms (FindLiveObjects: 0.583200 ms CreateObjectMapping: 0.260400 ms MarkObjects: 4.175100 ms  DeleteObjects: 2.133600 ms)
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6647 unused Assets / (11.0 MB). Loaded Objects now: 7411.
+Memory consumption went from 217.6 MB to 206.6 MB.
+Total: 10.681833 ms (FindLiveObjects: 0.870327 ms CreateObjectMapping: 0.272727 ms MarkObjects: 6.382843 ms  DeleteObjects: 2.824265 ms)
 
 ========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:26.5683452Z
-  Time since last request: 592.69443920000003 seconds.
-  importAddress: GUID: ec80819f2b286fd4a94401058273799d - Path: Assets/IndieMarc/PlatformerDemo/Scripts/PlayerControls.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: ec80819f2b286fd4a94401058273799d - Path: Assets/IndieMarc/PlatformerDemo/Scripts/PlayerControls.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: ec80819f2b286fd4a94401058273799d' -> (Import Result ID: '5b456f2f408e04839eb33bd753b0a3a7') in 0.097 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=efdf2db2be649e9eb49a5299bd17084a DependenciesID=6059aa2d34a11164719bfd678306dc09 StaticDependenciesID=b53d8663f40aa98f7364cdc6d662740b 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (5.3 MB). Loaded Objects now: 7411.
+Memory consumption went from 211.3 MB to 206.0 MB.
+Total: 7.209598 ms (FindLiveObjects: 0.371971 ms CreateObjectMapping: 0.110431 ms MarkObjects: 4.973799 ms  DeleteObjects: 1.416049 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:26.6764024Z
-  Time since last request: 0.0000352 seconds.
-  importAddress: GUID: 943fb5a37b65e2c42a5e85929d2f4f7f - Path: Assets/IndieMarc/TopDownDemo/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 943fb5a37b65e2c42a5e85929d2f4f7f - Path: Assets/IndieMarc/TopDownDemo/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 943fb5a37b65e2c42a5e85929d2f4f7f' -> (Import Result ID: '2f64c70069edd376435b689cc088f7e1') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2d116913dddf1c1f344e18aa8484c1e9 DependenciesID=6e532404b35d16eb20f2e45db7af2269 StaticDependenciesID=0777828a6b1c93be542980087283aeff 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.413 seconds
+Domain Reload Profiling: 821ms
+	BeginReloadAssembly (127ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (171ms)
+		TypeCache.Refresh (7ms)
+		AnalyzeDomain (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (413ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (171ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6644 unused Assets / (6.9 MB). Loaded Objects now: 7414.
+Memory consumption went from 215.2 MB to 208.3 MB.
+Total: 9.852701 ms (FindLiveObjects: 0.596226 ms CreateObjectMapping: 0.234351 ms MarkObjects: 7.257171 ms  DeleteObjects: 1.438936 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:26.6887387Z
-  Time since last request: 0.0005149 seconds.
-  importAddress: GUID: 19445a47a9544c04eb951035061ae93e - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-left-down.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 19445a47a9544c04eb951035061ae93e - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-left-down.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 19445a47a9544c04eb951035061ae93e' -> (Import Result ID: '51862c40a106c61dae53c8e0e5a59c83') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=087bda355ef96d999b9ef38df2348591 DependenciesID=0ce15583cd4ac01467f3415a75211c12 StaticDependenciesID=792f4a5d4625ccca649a4518d804118d 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (5.3 MB). Loaded Objects now: 7414.
+Memory consumption went from 211.5 MB to 206.3 MB.
+Total: 7.222969 ms (FindLiveObjects: 0.374930 ms CreateObjectMapping: 0.116127 ms MarkObjects: 5.026170 ms  DeleteObjects: 1.318572 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:26.7347168Z
-  Time since last request: 0.0003576 seconds.
-  importAddress: GUID: 03ce0cd312718b7489e027fe32ae4160 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_2.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 03ce0cd312718b7489e027fe32ae4160 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_2.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 03ce0cd312718b7489e027fe32ae4160' -> (Import Result ID: '88023ab5b9ba4e41f0eae6b6546af3a5') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=368d8d888e2e176969c68d1066637c01 DependenciesID=6ce00b2a7e62d248e57f319774df1930 StaticDependenciesID=5adc745460015320f9515d802d1dc725 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:26.7475626Z
-  Time since last request: 0.0003591 seconds.
-  importAddress: GUID: d460b92031561ef40902c08fd85dde2e - Path: Assets/IndieMarc/TopDownDemo/Textures/door_shadow.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: d460b92031561ef40902c08fd85dde2e - Path: Assets/IndieMarc/TopDownDemo/Textures/door_shadow.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: d460b92031561ef40902c08fd85dde2e' -> (Import Result ID: '6e274b7cb3278c4bf00d971b3f563e88') in 0.041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0833aeb04557876a634183aff0da23b6 DependenciesID=d343e8f12592ccd2bb82d6ce600b0a4b StaticDependenciesID=3a09c0deb0ee28f5724593154b7f10d7 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:26.7962411Z
-  Time since last request: 0.0000217 seconds.
-  importAddress: GUID: d8b153895a8d9dd4fa1368f22e63bcf5 - Path: Assets/IndieMarc/TopDownDemo/Scripts/CharacterAnim.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: d8b153895a8d9dd4fa1368f22e63bcf5 - Path: Assets/IndieMarc/TopDownDemo/Scripts/CharacterAnim.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: d8b153895a8d9dd4fa1368f22e63bcf5' -> (Import Result ID: 'ff29f07599b5eb305b53846998971b9c') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3406373f8ad4d1324159f1478272b8de DependenciesID=8d0b7c4903132e25e64289b212dd1ad6 StaticDependenciesID=ad3a06c2ac956c267cd6e744f217e7e4 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:26.8068099Z
-  Time since last request: 0.0004228 seconds.
-  importAddress: GUID: f933e4eb38a07dc449409aa29f931196 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Lever/Lever_position01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: f933e4eb38a07dc449409aa29f931196 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Lever/Lever_position01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: f933e4eb38a07dc449409aa29f931196' -> (Import Result ID: '34c2c19dc4acc79bfa6535258986c877') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e5e6ee28bf8eb6c95a0fae4dd092f6fa DependenciesID=c0a6cbf61fdac58a320c37f4cde0d293 StaticDependenciesID=0997cd04dfbeafa8aa5257ea027a073d 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:26.8195015Z
-  Time since last request: 0.0002918 seconds.
-  importAddress: GUID: 36e9b3a28120a0841bed6886ca88cf7a - Path: Assets/IndieMarc/PlatformerDemo/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 36e9b3a28120a0841bed6886ca88cf7a - Path: Assets/IndieMarc/PlatformerDemo/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 36e9b3a28120a0841bed6886ca88cf7a' -> (Import Result ID: 'c368e3397db046910f739903b3a47b41') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c93307bfc954082f3caeb6681cd72aaf DependenciesID=316dd6999c839474d4096eeea882f0a2 StaticDependenciesID=80f6c28ff870a1542f7b683d127ffad4 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:26.8619191Z
-  Time since last request: 0.0322109 seconds.
-  importAddress: GUID: 03ac0993cdae0f6428f5b78ed71bc571 - Path: Assets/IndieMarc/TopDownDemo/Editor/ImportPackage.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 03ac0993cdae0f6428f5b78ed71bc571 - Path: Assets/IndieMarc/TopDownDemo/Editor/ImportPackage.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 03ac0993cdae0f6428f5b78ed71bc571' -> (Import Result ID: '0c3d7688d88049a56be07ad77ea329df') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=affbdffc880cb2ff15bb4ed6f42439a1 DependenciesID=1a6dd357c41b0e16b3d281a918e50341 StaticDependenciesID=c54bc809b009498ec7231fb10f7f6ab1 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:26.8707867Z
-  Time since last request: 0.000347 seconds.
-  importAddress: GUID: 68c015405025c844bb5f288d3a167aef - Path: Assets/IndieMarc/TopDownDemo/Scripts/AutoOrderLayerChild.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 68c015405025c844bb5f288d3a167aef - Path: Assets/IndieMarc/TopDownDemo/Scripts/AutoOrderLayerChild.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 68c015405025c844bb5f288d3a167aef' -> (Import Result ID: '780d9f902d78cc3c007e68922568a345') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9851b2fba71f07b80291892412167eb1 DependenciesID=b9ef4153d51119bbe100d24ab47c6be8 StaticDependenciesID=2a9d78143bec1ad64f6a1969a84dec00 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:26.8833141Z
-  Time since last request: 0.0004173 seconds.
-  importAddress: GUID: e8eef653ff1b630449f70b418288c65e - Path: Assets/IndieMarc/TopDownDemo/Prefabs/Shadow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: e8eef653ff1b630449f70b418288c65e - Path: Assets/IndieMarc/TopDownDemo/Prefabs/Shadow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: e8eef653ff1b630449f70b418288c65e' -> (Import Result ID: '5967ac963aa3de453d5c81f6f8e4e29d') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=33d058ef4bc6b217d0a86d471eb56348 DependenciesID=b6f23100d9271d71e3af40cf24338412 StaticDependenciesID=fff56a88e5930ec9df73f6449f9e87e1 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:26.9187619Z
-  Time since last request: 0.000271 seconds.
-  importAddress: GUID: bdaf8bd21bbce30449c22daf894109a7 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-slide-right-down.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: bdaf8bd21bbce30449c22daf894109a7 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-slide-right-down.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: bdaf8bd21bbce30449c22daf894109a7' -> (Import Result ID: 'b5ca0be412043a3cd7b8e1fdcd445de3') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2525a3e48d6751b1bda1788a64b49cac DependenciesID=d170de0c7b08c2cbabd9e73fb8d0fc82 StaticDependenciesID=29f4493596437a4eaa6bc873211c92d5 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:26.9350519Z
-  Time since last request: 0.0002896 seconds.
-  importAddress: GUID: 9272c368c2ea4004d93dd9539f956312 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees1.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 9272c368c2ea4004d93dd9539f956312 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees1.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 9272c368c2ea4004d93dd9539f956312' -> (Import Result ID: '4d8027286f71903e852f750756b2f5b8') in 0.057 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=450d49e9bf355e0c4ef5abd210425858 DependenciesID=f952e1686f4582fa48e42a75d47b38f4 StaticDependenciesID=bdf6c4243aef2bc8e65910d3d69f793b 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:27.0020861Z
-  Time since last request: 0.0001407 seconds.
-  importAddress: GUID: 124a11c81bd6d03479673691ab06e2eb - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_13.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 124a11c81bd6d03479673691ab06e2eb - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_13.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 124a11c81bd6d03479673691ab06e2eb' -> (Import Result ID: 'd051991dc966fb1fea07103da05b782d') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2bc378d553dad4facf28293c7a8ea3b7 DependenciesID=70f7b3d809f9457a926f7ce18f6ce161 StaticDependenciesID=6320b37f3d1205f1bdb6261e71b73384 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:27.0154644Z
-  Time since last request: 0.0004926 seconds.
-  importAddress: GUID: a45f8e993f5f7dd41a8e551bc5edbb6c - Path: Assets/IndieMarc/TopDownDemo/Textures/Lever_position02.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: a45f8e993f5f7dd41a8e551bc5edbb6c - Path: Assets/IndieMarc/TopDownDemo/Textures/Lever_position02.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: a45f8e993f5f7dd41a8e551bc5edbb6c' -> (Import Result ID: 'bc3866e1e46b9cc7dcfadba851d60111') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b516b74431fc57e47c8ea988b7df2665 DependenciesID=763a96303ffb5e35b76a2c8a571f26d3 StaticDependenciesID=eb2b159f972cba53037aa294c735305a 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:27.0292371Z
-  Time since last request: 0.0004467 seconds.
-  importAddress: GUID: 3c441bd1dc391dc4eb11709b9c158fdc - Path: Assets/IndieMarc/TopDownDemo/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 3c441bd1dc391dc4eb11709b9c158fdc - Path: Assets/IndieMarc/TopDownDemo/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 3c441bd1dc391dc4eb11709b9c158fdc' -> (Import Result ID: '08d777fb81abf8ff99d5210828daf833') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5439463df0f7ab887875e57f1603e047 DependenciesID=f894bbfdfe88b75f28aa8a8eccada61d StaticDependenciesID=e694bf84971c02603014aa341eb53653 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:27.040179Z
-  Time since last request: 0.0004078 seconds.
-  importAddress: GUID: 868bfc083d111bc4fb3199b0409700e4 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_5.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 868bfc083d111bc4fb3199b0409700e4 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_5.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 868bfc083d111bc4fb3199b0409700e4' -> (Import Result ID: '8d3570d63e28e10cf21f3a222ba2629e') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85176eec4863c8bbd741dc2eb9fe61ec DependenciesID=41fe20416199fe977edade174e085d9e StaticDependenciesID=2e8b4a1a45df3a50ac1836f5e01f3dda 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:27.0518527Z
-  Time since last request: 0.0004136 seconds.
-  importAddress: GUID: 59e1a3436b7c92c43836479561d9d9cc - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-left.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 59e1a3436b7c92c43836479561d9d9cc - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-left.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 59e1a3436b7c92c43836479561d9d9cc' -> (Import Result ID: '8bf1299a0f3ba420659f777142cf90a4') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b9eded5a5dbef717c4869bff8790f016 DependenciesID=326669395993af500cf08fe6a9055af7 StaticDependenciesID=2c27aee3c40b7b355ad598a071cc86c2 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:27.0664114Z
-  Time since last request: 0.0005125 seconds.
-  importAddress: GUID: 89bcfd216f1ceae4cac19a6e44b2ac4d - Path: Assets/IndieMarc/TopDownDemo/Textures/Shadow_wall.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 89bcfd216f1ceae4cac19a6e44b2ac4d - Path: Assets/IndieMarc/TopDownDemo/Textures/Shadow_wall.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 89bcfd216f1ceae4cac19a6e44b2ac4d' -> (Import Result ID: 'c64d9ff290aa0e4fd00af00773603714') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2a5a048fc1e94c23f705a26ee76b0488 DependenciesID=d68cdb6a498f176d1ab11f0aaceeec2c StaticDependenciesID=0f4a0895058a172923082d7054b8823b 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:27.083006Z
-  Time since last request: 0.0003332 seconds.
-  importAddress: GUID: 96b904be7893d1143a2ced2c437c61de - Path: Assets/IndieMarc/TopDownDemo/Scripts/PlayerControls.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 96b904be7893d1143a2ced2c437c61de - Path: Assets/IndieMarc/TopDownDemo/Scripts/PlayerControls.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 96b904be7893d1143a2ced2c437c61de' -> (Import Result ID: '9c88761bc60faa0eb1d5f8eef41e49a4') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=316f83fe998a5c6f272b5dc5a6dc16fd DependenciesID=9c71aa1a7eed6dbec7c1af00aac3b8a9 StaticDependenciesID=7d39b534a2ac098e256ba74c7326e785 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:27.0924344Z
-  Time since last request: 0.0003074 seconds.
-  importAddress: GUID: 4ca610ae8c246e14d91870c3818200f5 - Path: Assets/IndieMarc/TopDownDemo/Prefabs/DoorKey3D.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 4ca610ae8c246e14d91870c3818200f5 - Path: Assets/IndieMarc/TopDownDemo/Prefabs/DoorKey3D.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 4ca610ae8c246e14d91870c3818200f5' -> (Import Result ID: '242ac3bf610119e6958532d9411c12ad') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6c756879858c1753ecb28558ee18da68 DependenciesID=71e4e14a70086d07a0f5ca2ad67e0491 StaticDependenciesID=9b88d4740f5e8ed8ea50448518a5411c 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-30T15:21:27.1322615Z
-  Time since last request: 0.0001566 seconds.
-  importAddress: GUID: 1b17e2b3936490f4294522a1b1784702 - Path: Assets/IndieMarc/TopDownDemo/Materials/Sprite3D-unlit.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 1b17e2b3936490f4294522a1b1784702 - Path: Assets/IndieMarc/TopDownDemo/Materials/Sprite3D-unlit.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 1b17e2b3936490f4294522a1b1784702' -> (Import Result ID: 'f5c971b65095ee54e58d2dd6295f7bb9') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=45b33405b14cdcb21270bc87c52e14c9 DependenciesID=323f03b2bfd5a2275c7af53343cdb72d StaticDependenciesID=65a98967fae7125e8d5147c95547b46c 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (5.2 MB). Loaded Objects now: 7414.
+Memory consumption went from 211.6 MB to 206.4 MB.
+Total: 6.649943 ms (FindLiveObjects: 0.445770 ms CreateObjectMapping: 0.165921 ms MarkObjects: 4.958774 ms  DeleteObjects: 0.743962 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Editor is closing down
 AcceleratorClientConnectionCallback - disconnected - :0
 AssetImportWorker is now disconnected from the server
 Process exiting
 [ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
+
+SDL leaked 2 allocations
+Turn on UNITY_SDL_ALLOCATION_TRACKING for detailed information.
+Vulkan PSO: Pipeline cache has not changed skipping save handle[51cf7fb0]

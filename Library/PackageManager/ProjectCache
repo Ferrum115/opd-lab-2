@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/MSI/OPD_laba_2/Packages/manifest.json
+    m_FilePath: /home/mage/opd_lab_2/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639263533053559240
+      ticks: 639264550809708142
     m_Hash: 4186109524
   m_LockFileStatus:
-    m_FilePath: C:/Users/MSI/OPD_laba_2/Packages/packages-lock.json
+    m_FilePath: /home/mage/opd_lab_2/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639263533159054130
+      ticks: 639264550809722958
     m_Hash: 3275847371
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/MSI/OPD_laba_2/Packages
+m_ProjectPath: /home/mage/opd_lab_2/Packages
 m_EditorVersion: 6000.6.3f1 (45d8eee7de74)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@2.0.14
@@ -28,7 +28,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 2.0.14
   source: 1
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.ai.navigation@134dd6a3b97b
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -167,7 +167,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 2.13.6
   source: 1
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -364,7 +364,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 3.0.38
   source: 1
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -512,7 +512,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 2.0.26
   source: 1
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -642,7 +642,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.20.0
   source: 1
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -818,7 +818,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 17.6.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.render-pipelines.universal@327d93d1cbc8
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.render-pipelines.universal@0ffb3d4f1461
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -931,7 +931,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 327d93d1cbc8d7adc3890050093d8c3ced103c5d
+  fingerprint: 0ffb3d4f146187261d02f5836d44056ebe08c229
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.6.0
@@ -948,7 +948,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.8.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.test-framework@80f691d4262b
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.test-framework@33f8a1e9aefd
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1035,7 +1035,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 80f691d4262b2aaf0b537d8eaac07de186b094b1
+  fingerprint: 33f8a1e9aefd70df9b79eced968f271c0a4b1c51
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.8.0
@@ -1052,7 +1052,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 6.6.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.timeline@c56d56b0070b
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.timeline@9cd41035b3ab
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1146,7 +1146,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: c56d56b0070b3948146a9d1838d72ac8f3fb10c6
+  fingerprint: 9cd41035b3ab69ef5c3c1e89412414559852ca17
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 6.6.0
@@ -1163,7 +1163,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 2.6.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.ugui@0727b404f3a0
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.ugui@88d0d51315d3
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: uGUI
@@ -1267,7 +1267,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 0727b404f3a0e044a73565dc8a9ee10fa68be22b
+  fingerprint: 88d0d51315d3269ddd87da008f6e479280a55160
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.6.0
@@ -1284,7 +1284,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.9.12
   source: 1
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.visualscripting@4edfcc09512f
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.visualscripting@4edfcc09512f
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1429,7 +1429,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1519,7 +1519,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.adaptiveperformance
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.adaptiveperformance
   assetPath: Packages/com.unity.modules.adaptiveperformance
   name: com.unity.modules.adaptiveperformance
   displayName: Adaptive Performance
@@ -1615,7 +1615,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1705,7 +1705,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1799,7 +1799,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1889,7 +1889,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1979,7 +1979,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2069,7 +2069,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2163,7 +2163,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.director
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2261,7 +2261,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2351,7 +2351,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2441,7 +2441,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2531,7 +2531,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2621,7 +2621,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2711,7 +2711,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2805,7 +2805,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.physicscore2d
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.physicscore2d
   assetPath: Packages/com.unity.modules.physicscore2d
   name: com.unity.modules.physicscore2d
   displayName: Physics Core 2D
@@ -2895,7 +2895,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2989,7 +2989,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -3079,7 +3079,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -3177,7 +3177,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.tetgen
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.tetgen
   assetPath: Packages/com.unity.modules.tetgen
   name: com.unity.modules.tetgen
   displayName: Tetgen
@@ -3267,7 +3267,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -3363,7 +3363,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.timelinefoundation
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.timelinefoundation
   assetPath: Packages/com.unity.modules.timelinefoundation
   name: com.unity.modules.timelinefoundation
   displayName: Timeline Foundation
@@ -3457,7 +3457,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3547,7 +3547,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3661,7 +3661,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3751,7 +3751,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3849,7 +3849,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3939,7 +3939,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -4037,7 +4037,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -4135,7 +4135,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -4233,7 +4233,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -4347,7 +4347,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.vectorgraphics
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.vectorgraphics
   assetPath: Packages/com.unity.modules.vectorgraphics
   name: com.unity.modules.vectorgraphics
   displayName: Vector Graphics
@@ -4459,7 +4459,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -4553,7 +4553,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.video
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -4655,7 +4655,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -4745,7 +4745,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -4847,7 +4847,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -4941,7 +4941,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -5031,7 +5031,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 2.1.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.ext.nunit@508b95ff9afe
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -5107,7 +5107,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 0198eae3b53e4b243332e89e4af7bd396715ad55
+  fingerprint: 508b95ff9afebba749610c6bac0176e4fbc0ba6e
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.1.0
@@ -5124,7 +5124,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 17.6.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.render-pipelines.core@02d75770e4b3
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.render-pipelines.core@2862bc571443
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -5223,7 +5223,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 02d75770e4b3ada4f020a106bcc58499ecece1fe
+  fingerprint: 2862bc571443db836d8f43616a845ce3975a0cba
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.6.0
@@ -5240,7 +5240,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 17.6.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.shadergraph@1dd0fd24b57e
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.shadergraph@48089545eeac
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -5343,7 +5343,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 1dd0fd24b57e1d676da169fe483cc31a10d8b54c
+  fingerprint: 48089545eeace93df2b885508702ea993b738ac5
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.6.0
@@ -5360,7 +5360,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 17.6.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.render-pipelines.universal-config@b1357eef5cd3
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal Render Pipeline Config
@@ -5455,7 +5455,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 561422b74439f8598f45a82c4935ca6f1d86f212
+  fingerprint: b1357eef5cd35e78d8a372764090f16655a50a1d
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.6.0
@@ -5472,7 +5472,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 4.9.5
   source: 1
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.searcher@a463122f2c00
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.searcher@a463122f2c00
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -5582,7 +5582,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.graph-authoring@f8926ccf2c8f
   assetPath: Packages/com.unity.graph-authoring
   name: com.unity.graph-authoring
   displayName: Graph Authoring
@@ -5655,7 +5655,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: cfd2588851ee248c7989396b0917e843c54c1c6d
+  fingerprint: f8926ccf2c8fe9afa7c1af7de1f013ddf7de6436
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -5672,7 +5672,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.burst@626e66ab421b
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.burst@c3ed5b778d56
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -5745,7 +5745,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 626e66ab421bf31cfa602bb20675290e2a514b01
+  fingerprint: c3ed5b778d5629115f36f7c7fd174bfefbb658e4
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
@@ -5762,7 +5762,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 6.6.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.collections@10fff0607388
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.collections@431b1d558060
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -5860,7 +5860,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 10fff0607388aeb98b314cf1183d493c1e67b9ef
+  fingerprint: 431b1d55806010480fc75188f686a2566eacfb66
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 6.6.0
@@ -5877,7 +5877,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.3
   source: 1
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.profiling.core@8a49f7027d06
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.profiling.core@8a49f7027d06
   assetPath: Packages/com.unity.profiling.core
   name: com.unity.profiling.core
   displayName: Unity Profiling Core API
@@ -5976,7 +5976,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.11.6
   source: 1
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -6079,7 +6079,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 6.6.0
   source: 2
-  resolvedPath: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.test-framework.performance@b6023decb532
+  resolvedPath: /home/mage/opd_lab_2/Library/PackageCache/com.unity.test-framework.performance@530c2523cea5
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
@@ -6166,7 +6166,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: b6023decb532a570b0df99e618cb20b0ba6198ba
+  fingerprint: 530c2523cea5530243ee2d84af4fb4c8639fe6fe
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 6.6.0
@@ -6177,4 +6177,4 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-m_BuiltInPackagesHash: ca269aad316d7a027cfe3dc9b433164734c6a3a2
+m_BuiltInPackagesHash: 3667e56ed1d1bd1ce0768cc79ad9f8d01201736b

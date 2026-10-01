@@ -1,32 +1,83 @@
-VBCSCompilerPreWarmer: watching VBCSCompiler (PID 3448)
-VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 11704)
-VBCSCompiler prewarm took 13.64 ms
+[UnityConnectServicesConfig] Local config successfully read: "/usr/share/unity3d/config/services-config.json"
+[UnityConnectServicesConfig] Service configuration:
+    "servicesConfigBaseUrl": "",
+    "disableServicesWindow": false,
+    "disableUserLogin": false,
+    "entitlementCacheTimeoutInSeconds": 60,
+    "clientConnectTimeoutSec": 60,
+    "clientHandshakeTimeoutSec": 30,
+    "clientResolveEntitlementsTimeoutSec": 30,
+    "clientUpdateLicenseTimeoutSec": 30,
+    "licensingServiceBaseUrl": "",
+    "enableProxyAutoconfig": "false"
+
+Unity Editor version:    6000.6.3f1 (45d8eee7de74)
+Branch:                  6000.6/staging
+Build type:              Release
+Batch mode:              NO
+System name:             Linux
+Distro version:          #1 SMP PREEMPT_DYNAMIC Sat, 26 Sep 2026 19:43:45 +0000
+Kernel version:          7.2.8-1-cachyos
+Architecture:            x86_64
+Window Protocol:         Wayland (XWayland)
+Available memory:        64047 MB
+Date:                    2026-10-01T12:53:44Z
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 3659146)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 3659148)
+VBCSCompiler prewarm took 6.56 ms
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-MSI" at "2026-09-30T16:27:12.7517094Z"
-Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 32472 MB
-BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
-System  architecture: x64
-Process architecture: x64
-Date: 2026-09-30T16:27:12Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mage" at "2026-10-01T12:53:44.229002Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-mage"
+[Licensing::IpcConnector] LicenseClient-mage channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-mage-6000.6.3 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 3659155)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mage-6000.6.3" at "2026-10-01T12:53:44.393242Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              01f7a73332d8464884922bcd13f3a33c
+  Correlation Id:          2dae8af0490f88a317f282cbb5af9cc8
+  External correlation Id: 7464034567605627277
+  Machine Id:              ff0yPQTja/m1oU2eAGX0rdG7sdg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mage-6000.6.3" (connect: 0.16s, validation: 0.03s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mage-6000.6.3-notifications" at "2026-10-01T12:53:44.426528Z"
+[Licensing::Module] Connected to LicensingClient (PId: 3659155, launch time: 0.00, total connection time: 0.20s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token xiUT7HorfF...
+Selected window backend: (null) 
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10171631020690-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.22s
+Desktop is 2560 x 1600 @ 60 Hz
+Initialize udev device monitor.
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
+/home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/unityhub-unity-editor-6000.6.3f1
 -projectpath
-C:\Users\MSI\OPD_laba_2
+/home/mage/opd_lab_2
 -acceptSoftwareTermsForThisRunOnly
 -useHub
 -hubIPC
 -cloudEnvironment
 production
 -licensingIpc
-LicenseClient-MSI
+LicenseClient-mage
 -hubSessionId
-b2fca5eb-77ef-4e57-a848-59a144276d35
+4f2327f0-4691-4da9-ae09-78da0f337e7a
 -accessToken
-tw7s_DBbGcP7T9I5fgxnA4SQOjgdtrNuGvxYrUpWUUo005f
-Successfully changed project path to: C:\Users\MSI\OPD_laba_2
-C:/Users/MSI/OPD_laba_2
+xiUT7HorfFL4IMLau8db748oP2R9ToG8lbOok2uoWCI009f
+Successfully changed project path to: /home/mage/opd_lab_2
+/home/mage/opd_lab_2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -36,13 +87,13 @@ C:/Users/MSI/OPD_laba_2
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-    "memorysetup-temp-allocator-size-gfx=262144"
-    "memorysetup-remapper-allocator-initial-capacity=32768"
     "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
-    "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
     "memorysetup-bucket-allocator-block-size=33554432"
@@ -64,76 +115,30 @@ C:/Users/MSI/OPD_laba_2
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 22332, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.3+d7ffd15
-  Session Id:              f994545374f54145b7ffb5ccc63e5d86
-  Correlation Id:          e35cd7d0a87048009a7b1555b953f0e6
-  External correlation Id: 8240583448584489976
-  Machine Id:              sxwzM81Ex40/eNcvTTuFU07obCk=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-MSI" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-MSI-notifications" at "2026-09-30T16:27:12.7748066Z"
-[Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated the access token tw7s_DBbGc...
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-JT8S-VX4V-2PXU-5UM5-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 5774130951012-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-JT8S-VX4V-2PXU-5UM5-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 5774130951012-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-[Licensing::Module] Licensing Background thread has ended after 0.03s
-Player connection [13744]  Target information:
+Player connection [140713431915264]  Target information:
 
-Player connection [13744]  * "[IP] 172.19.0.1 [Port] 55504 [Flags] 2 [Guid] 1173959765 [EditorId] 1173959765 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MTCHHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [140713431915264]  * "[IP] 100.117.44.127 [Port] 55504 [Flags] 2 [Guid] 867102467 [EditorId] 867102467 [Version] 1048832 [Id] LinuxEditor(16,10.8.1.77) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [13744]  * "[IP] 192.168.3.10 [Port] 55504 [Flags] 2 [Guid] 1173959765 [EditorId] 1173959765 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MTCHHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [140713431915264]  * "[IP] 10.8.1.77 [Port] 55504 [Flags] 2 [Guid] 867102467 [EditorId] 867102467 [Version] 1048832 [Id] LinuxEditor(16,10.8.1.77) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [13744] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [13744] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140713431915264] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140713431915264] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-23748" after 0.2 seconds.
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-JT8S-VX4V-2PXU-5UM5-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 5774130951012-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Library Redirect Path: Library/
 Initialising UDS system complete:
   - System type: Client
-  - Resource namespace: 4f4d54d89a7d6385282fa40a0245a869
+  - Resource namespace: 07abfd7b6a95a0fbec3ac7544eb85e3c
   - Shared memory size: 1073741824
-  - Command buffer id: 1052576
+  - Command buffer id: 1052624
   - Command buffer size: 8192
   - Hashmap size: 4194304
   - Service connected: false
-Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/Unity.DataStore.exe 
-Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/MSI/OPD_laba_2Serialized file "ProjectSettings/AudioManager.asset" contains a AudioManager object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+[Package Manager] Connected to IPC stream "Upm-3659109" after 0.1 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - /home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/Unity.DataStore 
+Unity Data Store artifact dir = Library/DataStore, working dir = /home/mage/opd_lab_2Serialized file "ProjectSettings/AudioManager.asset" contains a AudioManager object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
 Serialized file "ProjectSettings/DynamicsManager.asset" contains a PhysicsManager object at version 7, below the supported minimum (13). Open and re-save the file to upgrade.
 Serialized file "ProjectSettings/Physics2DSettings.asset" contains a Physics2DSettings object at version 3, below the supported minimum (4). Open and re-save the file to upgrade.
 Unity Data Store running and initialised
@@ -145,2079 +150,348 @@ Unity Data Store running and initialised
 [Physics::Module] Threading Mode: Multi-Threaded
 Initialize engine version: 6000.6.3f1 (45d8eee7de74)
 [EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/MSI/OPD_laba_2/Assets
-[D3D12 Device Filter] Vendor Name: NVIDIA
-[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 5070 Laptop GPU
-[D3D12 Device Filter] Driver Version: 32.0.16.1047
-[D3D12 Device Filter] Feature Level: 12.2
-[D3D12 Device Filter] Graphics Memory: 7891 MB
-[D3D12 Device Filter] Processor Count: 24
-[D3D12 Device Filter] Device Type: Discrete
-GfxDevice: creating device client; kGfxThreadingModeThreaded
-d3d12: failed to query info queue interface (0x80004002).
-Direct3D:
-    Version:         Direct3D 12 [level 12.2]
-    Renderer:        NVIDIA GeForce RTX 5070 Laptop GPU (ID=0x2d18)
-    Vendor:          NVIDIA
-    VRAM:            7891 MB
-    App VRAM Budget: 7123 MB
-    Driver:          32.0.16.1047
+[Subsystems] Discovering subsystems at path /home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/mage/opd_lab_2/Assets
+kGfxThreadingModeThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
+GfxDevice: creating device client; kGfxThreadingModeDirect
+GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_visual_info GLX_EXT_visual_rating GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_fbconfig_float GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_NV_copy_buffer GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_ARB_context_flush_control 
+Renderer: NVIDIA GeForce RTX 4080 Laptop GPU/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 615.71.09
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
+t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
+ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_EXT_shader_realtime_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL
+_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_fee
+dback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 G
+L_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture
+_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_b
+lend_equation_advanced GL_NV_blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geomet
+ry_shader4 GL_NV_geometry_shader_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_program_multiview GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_primitive_shading_rate GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_
+NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_dirty_tile_map GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_s
+hader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1875198408
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
-Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Mono path[0] = '/home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
+Mono path[1] = '/home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = '/home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56109
 CodeReloadManager initialized
 ImportWorker Server TCP listen port: 0
 AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001142 seconds.
-Native extension for WindowsStandalone target not found
+Register platform support module: /home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.000659 seconds.
+Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
+[Licensing::Client] Successfully resolved entitlement details
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.573 seconds
-Domain Reload Profiling: 970ms
-	BeginReloadAssembly (100ms)
-		CreateAndSetChildDomain (14ms)
+- Finished resetting the current domain, in  3.228 seconds
+Domain Reload Profiling: 3532ms
+	BeginReloadAssembly (55ms)
+		CreateAndSetChildDomain (10ms)
 	RebuildCommonClasses (3ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (235ms)
-		LoadAssemblies (85ms)
-		TypeCache.Refresh (159ms)
-			TypeCache.ScanAssembly (148ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (45ms)
+		TypeCache.Refresh (132ms)
+			TypeCache.ScanAssembly (123ms)
 		AnalyzeDomain (0ms)
-	FinalizeReload (574ms)
+	FinalizeReload (3228ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (114ms)
-			ProcessInitializeOnLoadMethodAttributes (185ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (67ms)
+			ProcessInitializeOnLoadMethodAttributes (2958ms)
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-JT8S-VX4V-2PXU-5UM5-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 5774130951012-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
 Application.AssetDatabase Initial Refresh Start
 [Package Manager] Restoring resolved packages state from cache
 [Licensing::Client] Successfully resolved entitlement details
 [Package Manager] Registered 59 packages:
   Packages from [https://packages.unity.com]:
-    com.unity.ai.navigation@2.0.14 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
-    com.unity.collab-proxy@2.13.6 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
-    com.unity.ide.rider@3.0.38 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
-    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
-    com.unity.inputsystem@1.20.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
-    com.unity.visualscripting@1.9.12 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
-    com.unity.searcher@4.9.5 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.searcher@a463122f2c00)
-    com.unity.profiling.core@1.0.3 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
-    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.ai.navigation@2.0.14 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.visualscripting@4edfcc09512f)
+    com.unity.searcher@4.9.5 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff)
   Built-in packages:
-    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.render-pipelines.universal@327d93d1cbc8)
-    com.unity.test-framework@1.8.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.test-framework@80f691d4262b)
-    com.unity.timeline@6.6.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.timeline@c56d56b0070b)
-    com.unity.ugui@2.6.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.ugui@0727b404f3a0)
-    com.unity.modules.accessibility@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.accessibility)
-    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.adaptiveperformance)
-    com.unity.modules.ai@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.ai)
-    com.unity.modules.androidjni@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.androidjni)
-    com.unity.modules.animation@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.animation)
-    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.assetbundle)
-    com.unity.modules.audio@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.audio)
-    com.unity.modules.cloth@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.cloth)
-    com.unity.modules.director@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.director)
-    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.imageconversion)
-    com.unity.modules.imgui@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.imgui)
-    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.jsonserialize)
-    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.particlesystem)
-    com.unity.modules.physics@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.physics)
-    com.unity.modules.physics2d@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.physics2d)
-    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.physicscore2d)
-    com.unity.modules.screencapture@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.screencapture)
-    com.unity.modules.terrain@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.terrain)
-    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.terrainphysics)
-    com.unity.modules.tetgen@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.tetgen)
-    com.unity.modules.tilemap@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.tilemap)
-    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.timelinefoundation)
-    com.unity.modules.ui@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.ui)
-    com.unity.modules.uielements@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.uielements)
-    com.unity.modules.umbra@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.umbra)
-    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.unityanalytics)
-    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.unitywebrequest)
-    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
-    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
-    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
-    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.unitywebrequestwww)
-    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.vectorgraphics)
-    com.unity.modules.vehicles@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.vehicles)
-    com.unity.modules.video@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.video)
-    com.unity.modules.wind@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.wind)
-    com.unity.modules.xr@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.xr)
-    com.unity.modules.subsystems@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.subsystems)
-    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.modules.hierarchycore)
-    com.unity.ext.nunit@2.1.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
-    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.render-pipelines.core@02d75770e4b3)
-    com.unity.shadergraph@17.6.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.shadergraph@1dd0fd24b57e)
-    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
-    com.unity.graph-authoring@1.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
-    com.unity.burst@2.0.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.burst@626e66ab421b)
-    com.unity.collections@6.6.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.collections@10fff0607388)
-    com.unity.test-framework.performance@6.6.0 (location: C:\Users\MSI\OPD_laba_2\Library\PackageCache\com.unity.test-framework.performance@b6023decb532)
+    com.unity.render-pipelines.universal@17.6.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.render-pipelines.universal@0ffb3d4f1461)
+    com.unity.test-framework@1.8.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.test-framework@33f8a1e9aefd)
+    com.unity.timeline@6.6.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.timeline@9cd41035b3ab)
+    com.unity.ugui@2.6.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.ugui@88d0d51315d3)
+    com.unity.modules.accessibility@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.ext.nunit@508b95ff9afe)
+    com.unity.render-pipelines.core@17.6.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.render-pipelines.core@2862bc571443)
+    com.unity.shadergraph@17.6.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.shadergraph@48089545eeac)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.render-pipelines.universal-config@b1357eef5cd3)
+    com.unity.graph-authoring@1.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.graph-authoring@f8926ccf2c8f)
+    com.unity.burst@2.0.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.burst@c3ed5b778d56)
+    com.unity.collections@6.6.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.collections@431b1d558060)
+    com.unity.test-framework.performance@6.6.0 (location: /home/mage/opd_lab_2/Library/PackageCache/com.unity.test-framework.performance@530c2523cea5)
 [Subsystems] No new subsystems found in resolved package list.
-[Package Manager] Done registering packages in 0.01 seconds
-Starting: C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
-WorkingDir: C:/Users/MSI/OPD_laba_2
+[Package Manager] Done registering packages in 0.00 seconds
+Starting: /home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2400b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /home/mage/opd_lab_2
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
-      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
-      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
-ExitCode: 0 Duration: 0s274ms
-[756/970    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
-*** Tundra build success (0.25 seconds), 1 items updated, 970 evaluated
-AssetDatabase: script compilation time: 0.677907s
-Total cache size 95204652
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll" in favor of "/home/mage/Unity/Hub/Editor/6000.6.3f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 0s123ms
+[684/898    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.10 seconds), 1 items updated, 898 evaluated
+AssetDatabase: script compilation time: 0.397260s
+Total cache size 132490020
+Total cache size after purge 132490020, took 00:00:00.0293073
 Begin MonoManager ReloadAssembly
-Total cache size after purge 95204652, took 00:00:00.0882713
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for WindowsStandalone target not found
+Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.613 seconds
-Domain Reload Profiling: 1307ms
-	BeginReloadAssembly (175ms)
-		DisableScriptedObjects (20ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (7ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (463ms)
-		LoadAssemblies (241ms)
-		TypeCache.Refresh (125ms)
-			TypeCache.ScanAssembly (115ms)
-		AnalyzeDomain (58ms)
-			BuildScriptInfoCaches (48ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (613ms)
+- Finished resetting the current domain, in  0.499 seconds
+Domain Reload Profiling: 1038ms
+	BeginReloadAssembly (118ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (384ms)
+		LoadAssemblies (186ms)
+		TypeCache.Refresh (104ms)
+			TypeCache.ScanAssembly (95ms)
+		AnalyzeDomain (41ms)
+			BuildScriptInfoCaches (35ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (499ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (234ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
-			AfterProcessingInitializeOnLoad (4ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
-Starting new worker id: 0 with log in C:/Users/MSI/OPD_laba_2/Logs/AssetImportWorkerHW0.log
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Starting new worker id: 0 with log in /home/mage/opd_lab_2/Logs/AssetImportWorkerHW0.log
+[UnityConnectServicesConfig] Local config successfully read: "/usr/share/unity3d/config/services-config.json"
+[UnityConnectServicesConfig] Service configuration:
+    "servicesConfigBaseUrl": "",
+    "disableServicesWindow": false,
+    "disableUserLogin": false,
+    "entitlementCacheTimeoutInSeconds": 60,
+    "clientConnectTimeoutSec": 60,
+    "clientHandshakeTimeoutSec": 30,
+    "clientResolveEntitlementsTimeoutSec": 30,
+    "clientUpdateLicenseTimeoutSec": 30,
+    "licensingServiceBaseUrl": "",
+    "enableProxyAutoconfig": "false"
 
-Asset Pipeline Refresh (id=8d49a9083f143ac43850d57b3a7800b1): Total: 2.612 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+
+Asset Pipeline Refresh (id=a54d4a1086827f234b0dac24cd3ddbde): Total: 2.126 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	(Values over 0.05ms)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=998 ms
-		Asset DB Callback time: managed=135 ms, native=15 ms
-		Scripting: domain reloads=1, domain reload time=736 ms, compile time=680 ms, other=46 ms
-		Project Asset Count: scripts=1388, non-scripts=2450
+		Asset DB Process Time: managed=0 ms, native=1023 ms
+		Asset DB Callback time: managed=104 ms, native=3 ms
+		Scripting: domain reloads=1, domain reload time=563 ms, compile time=399 ms, other=31 ms
+		Project Asset Count: scripts=1388, non-scripts=2451
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
-		Scan Filter Count: 0
-	InvokePackagesCallback: 16.200ms
-	ApplyChangesToAssetFolders: 0.541ms
-	Scan: 113.929ms
-	Collect global state as custom dependencies: 6.009ms
-	CategorizeScriptCompilationAssets: 34.719ms
-	ProcessAssetsWithTransientArtifactChanges: 52.727ms
-	CategorizeAssets: 37.667ms
-	CompileScripts: 679.883ms
-	ImportOutOfDateAssets: 634.713ms (618.085ms without children)
-		UnloadImportedAssets: 0.988ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.466ms
-		ImportSchedulerStart: 15.171ms
-	PostProcessAllAssets: 135.651ms
-		MonoPostProcessAllAssets: 135.593ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 121.346ms
-			SyncVS.PostprocessSyncProject 2.604ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.355ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.294ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.662ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.430ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.240ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.207ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.164ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.162ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.126ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.058ms
-	UnloadStreamsBegin: 1.423ms
-	PersistCurrentRevisions: 0.119ms
-	GenerateScriptTypeHashes: 1.617ms
-	GenerateScriptTypeSerializationHashes: 3.067ms
-	Untracked: 894.332ms
+		Scan Filter Count: 1
+	InvokePackagesCallback: 3.976ms
+	ApplyChangesToAssetFolders: 0.254ms
+	Scan: 292.814ms
+	Collect global state as custom dependencies: 4.030ms
+	CategorizeScriptCompilationAssets: 28.405ms
+	ProcessAssetsWithTransientArtifactChanges: 47.857ms
+	CategorizeAssets: 38.547ms
+	CompileScripts: 398.961ms
+	ImportOutOfDateAssets: 538.475ms (503.234ms without children)
+		UnloadImportedAssets: 1.546ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.600ms
+		ImportSchedulerStart: 33.092ms
+	PostProcessAllAssets: 104.111ms
+		MonoPostProcessAllAssets: 104.048ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 93.195ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.145ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.091ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.602ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.374ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.182ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.178ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.124ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.112ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.102ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.060ms
+			SyncVS.PostprocessSyncProject 0.056ms
+	UnloadStreamsBegin: 1.994ms
+	PersistCurrentRevisions: 0.109ms
+	GenerateScriptTypeHashes: 1.512ms
+	GenerateScriptTypeSerializationHashes: 2.876ms
+	Untracked: 665.344ms
 
 Application.AssetDatabase Initial Refresh End
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Scanning for USB devices : 3.018ms
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Scanning for USB devices : 2.729ms
 Initializing Unity extensions:
+UpdateMenuTitleForLanguage: 10
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-OPD_laba_2
-Serialized file "Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 183 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-	Deserialize:            5.827 ms
-	Integration:            32.930 ms
-	Integration of assets:  0.001 ms
-	Thread Wait Time:       0.104 ms
-	Total Operation Time:   38.863 ms
-Unloading 6649 unused Assets / (11.8 MB). Loaded Objects now: 8764.
-Memory consumption went from 435.1 MB to 423.3 MB.
-Total: 10.709800 ms (FindLiveObjects: 0.589900 ms CreateObjectMapping: 0.248800 ms MarkObjects: 6.366200 ms  DeleteObjects: 3.238400 ms)
+Unloading 154 Unused Serialized files (Serialized files now loaded: 0)
+LightingSettings: switching bake backend from 2 to 1.
+Loaded scene 'Assets/IndieMarc/PlatformerDemo/PlatformerDemo.unity'
+	Deserialize:            3.746 ms
+	Integration:            31.613 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   35.373 ms
+Unloading 6618 unused Assets / (7.9 MB). Loaded Objects now: 8006.
+Memory consumption went from 251.9 MB to 244.0 MB.
+Total: 11.385570 ms (FindLiveObjects: 0.471311 ms CreateObjectMapping: 0.246939 ms MarkObjects: 6.966147 ms  DeleteObjects: 3.372714 ms)
 
-[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
-[LAYOUT] About to save layout C:\Users\MSI\OPD_laba_2\UserSettings\Layouts\default-6000.dwlt
-[LAYOUT] About to save layout C:/Users/MSI/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[LAYOUT] About to load UserSettings/Layouts/default-6000.dwlt, keepMainWindow=False
+Unhandled description string [
+Unhandled description string ]
+GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_visual_info GLX_EXT_visual_rating GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_fbconfig_float GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_NV_copy_buffer GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_ARB_context_flush_control 
+GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_visual_info GLX_EXT_visual_rating GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_fbconfig_float GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_NV_copy_buffer GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_ARB_context_flush_control 
+GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_visual_info GLX_EXT_visual_rating GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_fbconfig_float GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_NV_copy_buffer GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_ARB_context_flush_control 
+GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_visual_info GLX_EXT_visual_rating GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_fbconfig_float GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_NV_copy_buffer GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_ARB_context_flush_control 
+GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_visual_info GLX_EXT_visual_rating GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_fbconfig_float GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_NV_copy_buffer GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_ARB_context_flush_control 
+GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_visual_info GLX_EXT_visual_rating GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_fbconfig_float GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_NV_copy_buffer GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_ARB_context_flush_control 
+[LAYOUT] About to save layout /home/mage/opd_lab_2/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /home/mage/.config/unity3d/Preferences/Editor-5.x/Layouts/current/default-6000.dwlt
 [MODES] ModeService[default].InitializeCurrentMode
 [MODES] ModeService[default].RaiseModeChanged(default, default)
 This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
-<RI> Initializing input.
-Using Windows.Gaming.Input
-<RI> Input initialized.
-[Project] Loading completed in 7.552 seconds
-	Project init time: 				5.789 seconds
+Unhandled description string [
+Unhandled description string ]
+[Project] Loading completed in 7.878 seconds
+	Project init time: 				6.395 seconds
 		Template init time: 		0.000 seconds
-		Package Manager init time: 		0.191 seconds
-		Asset Database init time: 		1.191 seconds
-		Global illumination init time: 	0.002 seconds
-		Assemblies load time: 			1.002 seconds
-		Unity extensions init time: 	0.024 seconds
-		Asset Database refresh time: 	2.612 seconds
-	Scene opening time: 			1.064 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790785639650,"processId":23748,"projectLoad":7.5523809,"projectInit":5.7890369,"templateInit":0.0,"packageManagerInit":0.191431,"assetDatabaseInit":1.1909212,"globalIlluminationInit":0.0021961,"assembliesLoad":1.0021157,"unityExtensionsInit":0.0235472,"assetDatabaseRefresh":2.6124495,"sceneOpening":1.0638189}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790785639651,"processId":23748,"editorVersion":"6000.6.3f1 (45d8eee7de74)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+		Package Manager init time: 		0.113 seconds
+		Asset Database init time: 		0.156 seconds
+		Global illumination init time: 	0.003 seconds
+		Assemblies load time: 			3.547 seconds
+		Unity extensions init time: 	0.026 seconds
+		Asset Database refresh time: 	2.127 seconds
+	Scene opening time: 			0.959 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790859232095,"processId":3659109,"projectLoad":7.878238082,"projectInit":6.395108726,"templateInit":0.0,"packageManagerInit":0.112833285,"assetDatabaseInit":0.155599494,"globalIlluminationInit":0.003357485,"assembliesLoad":3.546672597,"unityExtensionsInit":0.026398995,"assetDatabaseRefresh":2.127299724,"sceneOpening":0.959384761}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790859232095,"processId":3659109,"editorVersion":"6000.6.3f1 (45d8eee7de74)","branch":"6000.6/staging","buildType":"Release","platform":"Linux"}
 Worker ready: AssetImportWorkerHW0 0
-Created GICache directory at C:/Users/MSI/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.014s, timestamps: [8.375 - 8.389]
+Asset Pipeline Refresh (id=6adede8eeb325985cba5206fb063d7f4): Total: 0.134 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=de27e02284a586474b604cb89ee66f3a): Total: 0.056 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+[UnityConnectServicesConfig] Service configuration:
+    "servicesConfigBaseUrl": "",
+    "disableServicesWindow": false,
+    "disableUserLogin": false,
+    "entitlementCacheTimeoutInSeconds": 60,
+    "clientConnectTimeoutSec": 60,
+    "clientHandshakeTimeoutSec": 30,
+    "clientResolveEntitlementsTimeoutSec": 30,
+    "clientUpdateLicenseTimeoutSec": 30,
+    "licensingServiceBaseUrl": "",
+    "enableProxyAutoconfig": "false"
+
+Created GICache directory at /home/mage/.cache/unity3d/GiCache. Took: 0.001s, timestamps: [8.028 - 8.029]
+[Licensing::Client] Successfully resolved entitlement details
+Unhandled description string [
+Unhandled description string ]
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated access token: "tw7s_DBb"... (expires: 2026-09-30T17:18:20Z)
+[Licensing::Module] Successfully updated access token: "xiUT7Hor"... (expires: 2026-10-01T13:49:24Z)
+Starting new worker id: 1 with log in /home/mage/opd_lab_2/Logs/AssetImportWorkerHW1.log
+[UnityConnectServicesConfig] Local config successfully read: "/usr/share/unity3d/config/services-config.json"
+[UnityConnectServicesConfig] Service configuration:
+    "servicesConfigBaseUrl": "",
+    "disableServicesWindow": false,
+    "disableUserLogin": false,
+    "entitlementCacheTimeoutInSeconds": 60,
+    "clientConnectTimeoutSec": 60,
+    "clientHandshakeTimeoutSec": 30,
+    "clientResolveEntitlementsTimeoutSec": 30,
+    "clientUpdateLicenseTimeoutSec": 30,
+    "licensingServiceBaseUrl": "",
+    "enableProxyAutoconfig": "false"
+
+[Worker0] Imported GUID: 230ee21eea18d46e48f6038641c438b7 - Path: Assets/IndieMarc/PlatformerDemo/PlatformerDemo.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'aa072bdcc449f7fce884b9a3e694ccfe') in 0.048552158 seconds
 [Licensing::Client] Successfully resolved entitlement details
-UPID Received 'a1edac4b-f7b7-494b-b609-a49f1cf416c8'.
-[Licensing::Client] Successfully resolved entitlement details
+[Worker0] Imported GUID: e10a25099f09ff1d6a21b6e6f147de8e - Path: Assets/IndieMarc/PlatformerDemo/PlatformerDemoSettings.lighting - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b8cfdece1589f8deb45f3032066e913b') in 0.024857648 seconds
+[Worker0] Imported GUID: 288222b991fd00440a5577a610510cc9 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Tilemap.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2cf32493bf66e51387c4c7c1640f4fc8') in 0.018593115 seconds
+Project ID request failed, Reason: The requested URL returned error: 403 (403).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/a1edac4b-f7b7-494b-b609-a49f1cf416c8", HTTP error code 403
+.Worker ready: AssetImportWorkerHW1 1
 TrimDiskCacheJob: Current cache size 0mb
-Scanning for USB devices : 3.347ms
-Asset Pipeline Refresh (id=38435933f3c201c43af3322d71d562d9): Total: 0.047 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Start Indexing on Editor startup
-[Indexing] Starting Initial Indexing for Assets
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2031 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2049 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2053 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2050 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2061 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2063 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2013 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2025 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2037 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2040 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2060 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2024 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2052 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2055 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2058 ms: Could not connect to server
-Asset Pipeline Refresh (id=24f7786baa74cf942b1cdcc55db6576c): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=fd40dc92b943c024890365768cc319e7): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2023 ms: Could not connect to server
-Starting new worker id: 1 with log in C:/Users/MSI/OPD_laba_2/Logs/AssetImportWorkerHW1.log
-[Worker0] Imported GUID: e9c8335ec074d2a489b7a1afbde0106a - Path: Assets/IndieMarc/PlatformerDemo/Tilemap - Importer: PreviewImporter -> (ImportResultId: 'e1ad7200a779414510b01603bcebfb64') in 0.0178389 seconds
-[Worker0] Imported GUID: 9af0c3bd5a1094a14bb01bb8770f4365 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/PlatformerPalette.prefab - Importer: PreviewImporter -> (ImportResultId: '6a0230bfe69fd2786aef31f6f61e2856') in 0.1165678 seconds
-[Worker0] Imported GUID: 288222b991fd00440a5577a610510cc9 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Tilemap.mat - Importer: PreviewImporter -> (ImportResultId: 'af94b6a02bd6c93596a9a80ab15d1408') in 0.0662921 seconds
-Worker ready: AssetImportWorkerHW1 1
-[Worker0] Imported GUID: e28f62e17ab915240aaa2eed417db312 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Circle.png - Importer: PreviewImporter -> (ImportResultId: '3f4d83341909c84c339d7c3bbcc86c28') in 0.0318187 seconds
-[Worker1] Imported GUID: 74f7f12e816b4af47b2c22f055f5629a - Path: Assets/IndieMarc/PlatformerDemo/Sprites/CircleBlur.png - Importer: PreviewImporter -> (ImportResultId: 'c42261457f6cd84915134acac186ea71') in 0.0897139 seconds
-[Worker0] Imported GUID: 1d098f5e2d51f904680c81895d2c02b1 - Path: Assets/IndieMarc/PlatformerDemo/Materials/SpriteDiffuseP.mat - Importer: PreviewImporter -> (ImportResultId: 'fefb2054e189f46d439289c4d58b471a') in 0.0551509 seconds
-[Worker0] Imported GUID: 488fef3a70db04a7d975594f7ab7ce56 - Path: Assets/IndieMarc/PlatformerDemo/Prefabs/CharacterPlatformer.prefab - Importer: PreviewImporter -> (ImportResultId: '0d2b31e32fe90a9d9ffc78e4df42c9c4') in 0.0542507 seconds
-[Worker0] Imported GUID: 533120e8664760047bfd6d88d4c03533 - Path: Assets/IndieMarc/PlatformerDemo/Prefabs/Lever.prefab - Importer: PreviewImporter -> (ImportResultId: '9446aed95ddb1e0186c9519d28bfa500') in 0.0186783 seconds
-[Worker1] Imported GUID: 271c5b2bc5e704099a0d360ecaf9e121 - Path: Assets/IndieMarc/PlatformerDemo/Prefabs/Grass.prefab - Importer: PreviewImporter -> (ImportResultId: '4c915ce44e28a30ccd2ea598c6994d71') in 0.0995073 seconds
-[Worker0] Imported GUID: 91529c2350cce4a0eae08093c4300e94 - Path: Assets/IndieMarc/PlatformerDemo/Prefabs/TreeBackground.prefab - Importer: PreviewImporter -> (ImportResultId: '1454f8fb1645ab67fe70241c7b876d64') in 0.0483927 seconds
-Asset Pipeline Refresh (id=41afb2e04a5770940bf18215807bf0f3): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[Worker0] Imported GUID: 2352cead022bc224ca49c4e2333b3789 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Old - Importer: PreviewImporter -> (ImportResultId: '54b843f33c745c3b268738858661fc6d') in 0.0098525 seconds
-[Worker0] Imported GUID: 54be27fb08510e34dbd19671f582af2a - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black - Importer: PreviewImporter -> (ImportResultId: '82e9706d52986d942c1013e6d8f5ca9f') in 0.0064712 seconds
-Starting new worker id: 2 with log in C:/Users/MSI/OPD_laba_2/Logs/AssetImportWorkerHW2.log
-Starting new worker id: 3 with log in C:/Users/MSI/OPD_laba_2/Logs/AssetImportWorkerHW3.log
-[Worker0] Imported GUID: 3cd44b8105af31e41a8ff38b1eb11ff9 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-corner-left.png - Importer: PreviewImporter -> (ImportResultId: '0913d7c8f1231de9ac91b43c98ea6a88') in 0.0190102 seconds
-[Worker1] Imported GUID: e421c7733f5de1c4e866c2d8fae8c4d9 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-corner-left-down.png - Importer: PreviewImporter -> (ImportResultId: 'cb29b8c93289356147ff43dc53013749') in 0.019037 seconds
-[Worker0] Imported GUID: 09691ca67a8d9034ba6f81010c3fa38f - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-right.png - Importer: PreviewImporter -> (ImportResultId: 'bd8b40c608fb9d92df6c038ae3d462fc') in 0.0245618 seconds
-[Worker1] Imported GUID: 15f1a2dd6e73cb44b87ce9fa4e0f8ebe - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_8.asset - Importer: PreviewImporter -> (ImportResultId: '49c98ea0c6bf83fd7cdca7e081d7e0ce') in 0.0272438 seconds
-[Worker0] Imported GUID: 9f6238b263e800f41b3ab3601c0312f6 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-right-down.asset - Importer: PreviewImporter -> (ImportResultId: '1dd994c04c6ccbde1960594c8b6195bc') in 0.0136165 seconds
-[Worker1] Imported GUID: b009aaf79b40ccf4ca9f2e51182e5591 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-right-down.png - Importer: PreviewImporter -> (ImportResultId: 'd25c43e994ca4fc0d88222c1eb305b50') in 0.0189444 seconds
-[Worker0] Imported GUID: 84c89209ecaab8143ad3cf14f2be3043 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_3.asset - Importer: PreviewImporter -> (ImportResultId: '9efafa8a5ab5ca126022b0068d40d1f8') in 0.0102396 seconds
-[Worker1] Imported GUID: b8f5a40b7e8287643909acb1479b1e0e - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_10.asset - Importer: PreviewImporter -> (ImportResultId: '6267e19a118c697838a38d7e530a78e0') in 0.0118979 seconds
-[Worker0] Imported GUID: c84e5a06601ad0948b413e67f21b4b94 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_12.asset - Importer: PreviewImporter -> (ImportResultId: 'c66bff97796a08daf62f7df1aeadf6d2') in 0.010912 seconds
-[Worker1] Imported GUID: f76f60250da364240b7a27c02694449e - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_14.asset - Importer: PreviewImporter -> (ImportResultId: '2b93780358f410cb34046ae45722fb32') in 0.0143545 seconds
-[Worker0] Imported GUID: 8e20ae6049bf2784fac477472c172487 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_11.asset - Importer: PreviewImporter -> (ImportResultId: 'f7b053680204ecb0ae7843d3c2a0952b') in 0.0147215 seconds
-[Worker1] Imported GUID: 8bfabaf3971ff8b4fabfc18ee10951c2 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-flat-bottom.png - Importer: PreviewImporter -> (ImportResultId: '16d7b0ef3ed47de6b25ee49f58acbb3e') in 0.0155822 seconds
-[Worker0] Imported GUID: 68bd6f460eb1a1c4b891919cfcf5686b - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-left-down.png - Importer: PreviewImporter -> (ImportResultId: '236aba162ef120e8a2c4f468fc7f4f7f') in 0.0146999 seconds
-[Worker0] Imported GUID: 03ce0cd312718b7489e027fe32ae4160 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_2.asset - Importer: PreviewImporter -> (ImportResultId: '0aab2ac68da319e341f34a9bb352c6b3') in 0.0104485 seconds
-[Worker1] Imported GUID: 89e671f441dd749438f0505087026e07 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-right-down.png - Importer: PreviewImporter -> (ImportResultId: '895173d45fa1f635c5a9a2a9ee5ec338') in 0.0160492 seconds
-[Worker0] Imported GUID: bb50bdaa94b52cd4fa0168abe21d22cc - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-left-down.png - Importer: PreviewImporter -> (ImportResultId: '248e7bfcd1fdf802963823413cc0687c') in 0.0130237 seconds
-[Worker1] Imported GUID: bc5ab3a00dbef2648a95c20d90cae609 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-right.png - Importer: PreviewImporter -> (ImportResultId: '9e4a0de7943b187842fcc8d3385e35b9') in 0.013373 seconds
-[Worker0] Imported GUID: 5fe1d3b9c2ba44c408340f4db04454d7 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_1.asset - Importer: PreviewImporter -> (ImportResultId: '4ad154b8be2d087c9e0cf8a81a04e0d4') in 0.0107418 seconds
-[Worker1] Imported GUID: b23e11badbd1c834da49f69458eb169c - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_7.asset - Importer: PreviewImporter -> (ImportResultId: 'b7696f7391e74b6038f90c52faba0eb7') in 0.0101687 seconds
-[Worker0] Imported GUID: 124a11c81bd6d03479673691ab06e2eb - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_13.asset - Importer: PreviewImporter -> (ImportResultId: '0a9223f1a993fe9134c91776ec6cec9d') in 0.0100978 seconds
-[Worker1] Imported GUID: 09fdae6fda6d6c942b840d4b7389de95 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_0.asset - Importer: PreviewImporter -> (ImportResultId: '114c37d7758d55ebbde81f78a4a48327') in 0.0107578 seconds
-[Worker0] Imported GUID: a71661601f5d0b24e946696d1e09274b - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-flat-left.png - Importer: PreviewImporter -> (ImportResultId: '5675086ccee00a165e649ab9aed642fc') in 0.0126978 seconds
-[Worker1] Imported GUID: b744ddc17d3fd2040bca13133448b418 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-flat-top.png - Importer: PreviewImporter -> (ImportResultId: 'c9076c92aafd59f38a5016dde3aaa854') in 0.0124176 seconds
-[Worker0] Imported GUID: e541601047018134ebfde1ba25d41313 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-left.png - Importer: PreviewImporter -> (ImportResultId: 'b1e940d88869ba7a4e2e40cc166cbd8f') in 0.0125946 seconds
-[Worker1] Imported GUID: 732424989e347fa4cadc5c837451a7c7 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_4.asset - Importer: PreviewImporter -> (ImportResultId: 'eac1e1fe0fed458f688d748022dee7a9') in 0.0107782 seconds
-[Worker0] Imported GUID: fd9c6be6b2909544c98085d0c337bfcc - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_9.asset - Importer: PreviewImporter -> (ImportResultId: 'eb1be5f61a77076fcf4c00f4da098e76') in 0.0097322 seconds
-[Worker1] Imported GUID: 46e29cead0a2e3840b2c634932cf71d6 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-corner-right-down.png - Importer: PreviewImporter -> (ImportResultId: '99750ba3f5699790a2c2720a328de6dc') in 0.0135859 seconds
-[Worker0] Imported GUID: cf53cae2cd7d699408e23e9f26a0512c - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-flat-right.png - Importer: PreviewImporter -> (ImportResultId: '074f56b6aa08b363128efcb9b5247184') in 0.0120826 seconds
-[Worker1] Imported GUID: 4c3a4c38924408144ae04a47190c5db8 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_6.asset - Importer: PreviewImporter -> (ImportResultId: '570ceb771ef630bb3fbb13ac71d2eda5') in 0.010188 seconds
-[Worker0] Imported GUID: 59e1a3436b7c92c43836479561d9d9cc - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-left.png - Importer: PreviewImporter -> (ImportResultId: 'bb4007e47e08bd7f1994bd4a00f7acde') in 0.0130699 seconds
-[Worker1] Imported GUID: ff6dfd1a5554f4d42ab546e35f13fb8f - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-corner-right.png - Importer: PreviewImporter -> (ImportResultId: 'e1f75532aa27c5bbf0de45f626f4584d') in 0.0115426 seconds
-[Worker1] Imported GUID: 19445a47a9544c04eb951035061ae93e - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-left-down.asset - Importer: PreviewImporter -> (ImportResultId: 'e0d902dfbcde0ca1b785fe32c8c5405a') in 0.0104144 seconds
-[Worker0] Imported GUID: bb442bf150e81e44aa15a7d077be93b4 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-empty.png - Importer: PreviewImporter -> (ImportResultId: '66c88e98c74e9bc64fd1c827de39be83') in 0.0132881 seconds
-[Worker1] Imported GUID: 868bfc083d111bc4fb3199b0409700e4 - Path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_5.asset - Importer: PreviewImporter -> (ImportResultId: 'e6968d63fad5fd121d4b2c2a7a55ca9e') in 0.0088097 seconds
-Worker ready: AssetImportWorkerHW2 2
-Worker ready: AssetImportWorkerHW3 3
-Opening scene 'Assets/IndieMarc/PlatformerDemo/PlatformerDemo.unity'
-Serialized file "Assets/IndieMarc/PlatformerDemo/PlatformerDemo.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/PlatformerDemo/PlatformerDemo.unity'
-	Deserialize:            2.823 ms
-	Integration:            29.781 ms
-	Integration of assets:  0.001 ms
-	Thread Wait Time:       0.105 ms
-	Total Operation Time:   32.709 ms
-Unloading 261 unused Assets / (22.3 MB). Loaded Objects now: 8962.
-Memory consumption went from 0.63 GB to 0.61 GB.
-Total: 13.677000 ms (FindLiveObjects: 0.625900 ms CreateObjectMapping: 0.131600 ms MarkObjects: 9.299400 ms  DeleteObjects: 3.364100 ms)
-
-Asset Pipeline Refresh (id=8e80c7f663cc52f4bb587f5d41ccf686): Total: 0.006 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-SpriteAtlasPacking completed in 0.010782 sec
-Reloading assemblies for play mode.
-Reloading assemblies after forced synchronous recompile.
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-JT8S-VX4V-2PXU-5UM5-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 5774130951012-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.325 seconds
-Domain Reload Profiling: 1939ms
-	BeginReloadAssembly (388ms)
-		DisableScriptedObjects (67ms)
-		CreateAndSetChildDomain (198ms)
-	RebuildCommonClasses (7ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (163ms)
-		LoadAssemblies (102ms)
-		TypeCache.Refresh (6ms)
-		AnalyzeDomain (19ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1326ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (248ms)
-			ProcessInitializeOnLoadMethodAttributes (95ms)
-			AfterProcessingInitializeOnLoad (4ms)
-		AwakeInstancesAfterBackupRestoration (576ms)
-No restricted APIs configured; Validation skipped.
-Checking 18 assemblies for restricted APIs found 0 usage(s) in 3 ms
-
-Asset Pipeline Refresh (id=6b749134a76dea54ea2fe2d733754ab5): Total: 2.975 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
-	(Values over 0.05ms)
-	Summary:
-		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1507 ms
-		Asset DB Callback time: managed=608 ms, native=208 ms
-		Scripting: domain reloads=1, domain reload time=649 ms, compile time=2 ms, other=0 ms
-		Project Asset Count: scripts=1388, non-scripts=2450
-		Asset File Changes: new=0, changed=0, moved=0, deleted=0
-		Scan Filter Count: 0
-	InvokePackagesCallback: 0.975ms
-	ApplyChangesToAssetFolders: 0.190ms
-	Collect global state as custom dependencies: 0.524ms
-	ProcessAssetsWithTransientArtifactChanges: 113.912ms
-	CategorizeAssets: 31.907ms
-	CompileScripts: 1.659ms
-	ImportOutOfDateAssets: 1332.972ms (1330.272ms without children)
-		CollectScriptTypesHashes: 0.989ms
-		ReloadNativeAssets: 0.573ms
-		UnloadImportedAssets: 1.294ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.406ms
-		ImportSchedulerStart: 0.411ms
-	PostProcessAllAssets: 806.014ms
-		AssemblyValidation.PostprocessAllAssets 13.161ms
-		PostProcessCallbackCreateDeferredMaterials 12.912ms
-		PostprocessAssetsUpdateCachedIcon 10.450ms
-		RaytracingShaderImportPostprocess 6.673ms
-		ShaderAssetModifiedCallback 6.510ms
-		ComputeShaderImportPostprocess 6.040ms
-		SpeedTreeImporter.PostprocessAllAssets 5.006ms
-		BlockShaderImporter.PostprocessAllAssets 2.397ms
-		LocalizationDatabase.AssetDatabasePostprocessCallback 2.314ms
-		XRBuildSystem.XRAssetImported 0.421ms
-		MonoPostProcessAllAssets: 605.722ms
-			SyncVS.PostprocessSyncProject 219.348ms
-			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 142.451ms
-			AssetPostprocessor.OnPostprocessAllAssets 41.550ms
-			PostProcessor.OnPostprocessAllAssets 33.024ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 24.251ms
-			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 23.698ms
-			MaterialPostprocessor.OnPostprocessAllAssets 23.423ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 17.455ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 16.677ms
-			AssetChangedListener.OnPostprocessAllAssets 12.452ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 4.285ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 4.253ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.514ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.351ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.970ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.415ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.371ms
-			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.356ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.323ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.311ms
-			ThemePostprocessor.OnPostprocessAllAssets 0.295ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.259ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 0.256ms
-			SamplePostprocessor.OnPostprocessAllAssets 0.240ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.230ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.207ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.202ms
-			AssetEvents.OnPostprocessAllAssets 0.170ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.140ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.123ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.103ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.091ms
-			AssetReloadNotifier.OnPostprocessAllAssets 0.083ms
-			AudioContainerPostProcessor.OnPostprocessAllAssets 0.062ms
-	PostAssetChangesProfiler: 10.298ms
-	GatherAllCurrentPrimaryImportResultRevisions: 0.116ms
-	PersistCurrentRevisions: 0.105ms
-	GenerateScriptTypeHashes: 2.081ms
-	GenerateScriptTypeSerializationHashes: 3.491ms
-	Untracked: 671.585ms
-
-LightingSettings: switching bake backend from 2 to 1.
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            1.572 ms
-	Integration:            298.133 ms
-	Integration of assets:  0.001 ms
-	Thread Wait Time:       0.015 ms
-	Total Operation Time:   299.721 ms
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-LightingSettings: switching bake backend from 2 to 1.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            1.213 ms
-	Integration:            19.342 ms
-	Integration of assets:  0.001 ms
-	Thread Wait Time:       0.012 ms
-	Total Operation Time:   20.568 ms
-Unloading 5974 unused Assets / (2.3 MB). Loaded Objects now: 8986.
-Memory consumption went from 0.62 GB to 0.62 GB.
-Total: 17.617200 ms (FindLiveObjects: 0.694200 ms CreateObjectMapping: 0.281300 ms MarkObjects: 14.020300 ms  DeleteObjects: 2.378900 ms)
-
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-JT8S-VX4V-2PXU-5UM5-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 5774130951012-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-[Package Manager Window] Error while getting auth code: System.InvalidOperationException: Failed to call Unity ID to get auth code. State=DONE_FAILED, ResponseCode=0, URL=https://api.unity.com/v1/oauth2/authorize
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth:OnOperationError (string)
-UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth:<GetAuthCodeAndAccessToken>b__22_0 (UnityEditor.Connect.UnityOAuth/AuthCodeResponse)
-UnityEditor.Connect.UnityOAuth/<>c__DisplayClass7_0:<GetAuthorizationCodeAsync>b__0 (UnityEditor.IAsyncHTTPClient)
-UnityEditor.AsyncHTTPClient:Done (UnityEditor.AsyncHTTPClient/State,int)
-
-[Package Manager Window] Error while getting product update details: Error while getting auth code: System.InvalidOperationException: Failed to call Unity ID to get auth code. State=DONE_FAILED, ResponseCode=0, URL=https://api.unity.com/v1/oauth2/authorize
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-UnityEditor.PackageManager.UI.Internal.AssetStoreClientV2/<>c__DisplayClass27_0:<FetchUpdateInfos>b__1 (UnityEditor.PackageManager.UI.Internal.UIError)
-UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth:OnOperationError (string)
-UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth:<GetAuthCodeAndAccessToken>b__22_0 (UnityEditor.Connect.UnityOAuth/AuthCodeResponse)
-UnityEditor.Connect.UnityOAuth/<>c__DisplayClass7_0:<GetAuthorizationCodeAsync>b__0 (UnityEditor.IAsyncHTTPClient)
-UnityEditor.AsyncHTTPClient:Done (UnityEditor.AsyncHTTPClient/State,int)
-
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2021 ms: Could not connect to server
-Asset Pipeline Refresh (id=0d3c86b3a50f11249a08896198c9b8ec): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2041 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2041 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2061 ms: Could not connect to server
-Asset Pipeline Refresh (id=6a3e8fec5ca2cc44d9361f628b797b3b): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=e08efc44ac02fb741986b49e8cd178d8): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=db4c7fdf31cc3354e82b7b0c04225b0c): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2044 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2045 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2054 ms: Could not connect to server
-Asset Pipeline Refresh (id=5494fde13e1cc4e45b8084411febf6cc): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Opening scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo.unity'
-Serialized file "Assets/IndieMarc/TopDownDemo/TopDownDemo.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo.unity'
-	Deserialize:            4.601 ms
-	Integration:            34.782 ms
-	Integration of assets:  0.001 ms
-	Thread Wait Time:       0.099 ms
-	Total Operation Time:   39.483 ms
-Unloading 144 unused Assets / (2.2 MB). Loaded Objects now: 9795.
-Memory consumption went from 0.62 GB to 0.62 GB.
-Total: 16.832700 ms (FindLiveObjects: 0.633700 ms CreateObjectMapping: 0.178800 ms MarkObjects: 15.486900 ms  DeleteObjects: 0.299800 ms)
-
-Asset Pipeline Refresh (id=d400d491c326ef245b4c75541a305a88): Total: 0.005 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-SpriteAtlasPacking completed in 0.011019 sec
-Reloading assemblies for play mode.
-Reloading assemblies after forced synchronous recompile.
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-JT8S-VX4V-2PXU-5UM5-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 5774130951012-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.336 seconds
-Domain Reload Profiling: 1935ms
-	BeginReloadAssembly (385ms)
-		DisableScriptedObjects (59ms)
-		CreateAndSetChildDomain (201ms)
-	RebuildCommonClasses (7ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (101ms)
-		TypeCache.Refresh (8ms)
-		AnalyzeDomain (18ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1337ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (228ms)
-			ProcessInitializeOnLoadMethodAttributes (97ms)
-			AfterProcessingInitializeOnLoad (4ms)
-		AwakeInstancesAfterBackupRestoration (548ms)
-
-Asset Pipeline Refresh (id=615c97f4b64c4c147afee4b80ace7ece): Total: 2.067 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
-	(Values over 0.05ms)
-	Summary:
-		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1401 ms
-		Asset DB Callback time: managed=26 ms, native=0 ms
-		Scripting: domain reloads=1, domain reload time=636 ms, compile time=2 ms, other=0 ms
-		Project Asset Count: scripts=1388, non-scripts=2450
-		Asset File Changes: new=0, changed=0, moved=0, deleted=0
-		Scan Filter Count: 0
-	InvokePackagesCallback: 0.985ms
-	ApplyChangesToAssetFolders: 0.194ms
-	Collect global state as custom dependencies: 0.488ms
-	ProcessAssetsWithTransientArtifactChanges: 0.212ms
-	CategorizeAssets: 32.218ms
-	CompileScripts: 1.708ms
-	ImportOutOfDateAssets: 1342.539ms (1341.250ms without children)
-		CollectScriptTypesHashes: 0.587ms
-		ReloadNativeAssets: 0.528ms
-		UnloadImportedAssets: 0.109ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.374ms
-		ImportSchedulerStart: 0.265ms
-	PostProcessAllAssets: 26.487ms
-		MonoPostProcessAllAssets: 26.484ms
-			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 142.451ms
-			AssetPostprocessor.OnPostprocessAllAssets 41.550ms
-			PostProcessor.OnPostprocessAllAssets 33.024ms
-			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 23.698ms
-			MaterialPostprocessor.OnPostprocessAllAssets 23.423ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 17.455ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 13.124ms
-			AssetChangedListener.OnPostprocessAllAssets 12.452ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 4.253ms
-			SyncVS.PostprocessSyncProject 2.239ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.514ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.337ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.313ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.583ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.424ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.371ms
-			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.356ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.323ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.311ms
-			ThemePostprocessor.OnPostprocessAllAssets 0.295ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.285ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 0.256ms
-			SamplePostprocessor.OnPostprocessAllAssets 0.240ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.230ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.207ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.204ms
-			AssetEvents.OnPostprocessAllAssets 0.170ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.152ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.148ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.103ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.091ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.088ms
-			AssetReloadNotifier.OnPostprocessAllAssets 0.083ms
-			AudioContainerPostProcessor.OnPostprocessAllAssets 0.062ms
-	GatherAllCurrentPrimaryImportResultRevisions: 0.162ms
-	UnloadStreamsBegin: 0.051ms
-	PersistCurrentRevisions: 0.106ms
-	GenerateScriptTypeHashes: 1.604ms
-	GenerateScriptTypeSerializationHashes: 2.800ms
-	Untracked: 657.638ms
-
-LightingSettings: switching bake backend from 2 to 1.
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            3.487 ms
-	Integration:            277.222 ms
-	Integration of assets:  0.005 ms
-	Thread Wait Time:       0.142 ms
-	Total Operation Time:   280.855 ms
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-LightingSettings: switching bake backend from 2 to 1.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            2.952 ms
-	Integration:            19.329 ms
-	Integration of assets:  0.007 ms
-	Thread Wait Time:       0.032 ms
-	Total Operation Time:   22.319 ms
-Unloading 23 unused Assets / (79.6 KB). Loaded Objects now: 9800.
-Memory consumption went from 0.60 GB to 0.60 GB.
-Total: 15.590200 ms (FindLiveObjects: 0.507600 ms CreateObjectMapping: 0.131900 ms MarkObjects: 14.680700 ms  DeleteObjects: 0.044200 ms)
-
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-JT8S-VX4V-2PXU-5UM5-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 5774130951012-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Opening scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-Serialized file "Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-	Deserialize:            4.322 ms
-	Integration:            22.266 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.061 ms
-	Total Operation Time:   26.652 ms
-Unloading 48 unused Assets / (261.6 KB). Loaded Objects now: 9969.
-Memory consumption went from 0.60 GB to 0.60 GB.
-Total: 16.137800 ms (FindLiveObjects: 1.188800 ms CreateObjectMapping: 0.181200 ms MarkObjects: 14.399500 ms  DeleteObjects: 0.090300 ms)
-
-Asset Pipeline Refresh (id=72200be64e4599d4dbb38007706b58be): Total: 0.006 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-SpriteAtlasPacking completed in 0.010701 sec
-Reloading assemblies for play mode.
-Reloading assemblies after forced synchronous recompile.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.341 seconds
-Domain Reload Profiling: 1951ms
-	BeginReloadAssembly (398ms)
-		DisableScriptedObjects (58ms)
-		CreateAndSetChildDomain (214ms)
-	RebuildCommonClasses (7ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (149ms)
-		LoadAssemblies (100ms)
-		TypeCache.Refresh (6ms)
-		AnalyzeDomain (19ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1342ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (228ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
-			AfterProcessingInitializeOnLoad (4ms)
-		AwakeInstancesAfterBackupRestoration (547ms)
-
-Asset Pipeline Refresh (id=a5e3e6fc950087045a0be2cd7add3028): Total: 2.077 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
-	(Values over 0.05ms)
-	Summary:
-		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1409 ms
-		Asset DB Callback time: managed=25 ms, native=0 ms
-		Scripting: domain reloads=1, domain reload time=640 ms, compile time=2 ms, other=0 ms
-		Project Asset Count: scripts=1388, non-scripts=2450
-		Asset File Changes: new=0, changed=0, moved=0, deleted=0
-		Scan Filter Count: 0
-	InvokePackagesCallback: 0.989ms
-	ApplyChangesToAssetFolders: 0.185ms
-	Collect global state as custom dependencies: 0.474ms
-	ProcessAssetsWithTransientArtifactChanges: 0.146ms
-	CategorizeAssets: 32.850ms
-	CompileScripts: 1.708ms
-	ImportOutOfDateAssets: 1347.463ms (1345.915ms without children)
-		CollectScriptTypesHashes: 0.590ms
-		ReloadNativeAssets: 0.590ms
-		UnloadImportedAssets: 0.144ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.461ms
-		ImportSchedulerStart: 0.338ms
-	PostProcessAllAssets: 25.368ms
-		MonoPostProcessAllAssets: 25.365ms
-			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 142.451ms
-			AssetPostprocessor.OnPostprocessAllAssets 41.550ms
-			PostProcessor.OnPostprocessAllAssets 33.024ms
-			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 23.698ms
-			MaterialPostprocessor.OnPostprocessAllAssets 23.423ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 17.455ms
-			AssetChangedListener.OnPostprocessAllAssets 12.452ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 11.864ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 4.253ms
-			SyncVS.PostprocessSyncProject 2.149ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.514ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.416ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.407ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.573ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.453ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.371ms
-			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.356ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.323ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.311ms
-			ThemePostprocessor.OnPostprocessAllAssets 0.295ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 0.256ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.247ms
-			SamplePostprocessor.OnPostprocessAllAssets 0.240ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.230ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.207ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.205ms
-			AssetEvents.OnPostprocessAllAssets 0.170ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.113ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.111ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.103ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.091ms
-			AssetReloadNotifier.OnPostprocessAllAssets 0.083ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.065ms
-			AudioContainerPostProcessor.OnPostprocessAllAssets 0.062ms
-	GatherAllCurrentPrimaryImportResultRevisions: 0.129ms
-	PersistCurrentRevisions: 0.106ms
-	GenerateScriptTypeHashes: 1.586ms
-	GenerateScriptTypeSerializationHashes: 2.687ms
-	Untracked: 664.120ms
-
-LightingSettings: switching bake backend from 2 to 1.
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            4.177 ms
-	Integration:            289.388 ms
-	Integration of assets:  0.003 ms
-	Thread Wait Time:       0.015 ms
-	Total Operation Time:   293.584 ms
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-LightingSettings: switching bake backend from 2 to 1.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            3.277 ms
-	Integration:            19.070 ms
-	Integration of assets:  0.005 ms
-	Thread Wait Time:       0.036 ms
-	Total Operation Time:   22.388 ms
-Unloading 23 unused Assets / (61.5 KB). Loaded Objects now: 9963.
-Memory consumption went from 0.61 GB to 0.60 GB.
-Total: 15.198000 ms (FindLiveObjects: 0.525200 ms CreateObjectMapping: 0.111400 ms MarkObjects: 14.280100 ms  DeleteObjects: 0.048900 ms)
-
-Opening scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-Serialized file "Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-	Deserialize:            4.415 ms
-	Integration:            19.374 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.107 ms
-	Total Operation Time:   23.898 ms
-Unloading 10 unused Assets / (192.8 KB). Loaded Objects now: 9974.
-Memory consumption went from 0.61 GB to 0.61 GB.
-Total: 15.483700 ms (FindLiveObjects: 0.688800 ms CreateObjectMapping: 0.117000 ms MarkObjects: 14.384000 ms  DeleteObjects: 0.053100 ms)
-
-Opening scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo.unity'
-Serialized file "Assets/IndieMarc/TopDownDemo/TopDownDemo.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo.unity'
-	Deserialize:            4.225 ms
-	Integration:            18.084 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.009 ms
-	Total Operation Time:   22.319 ms
-Unloading 62 unused Assets / (73.2 KB). Loaded Objects now: 9813.
-Memory consumption went from 0.61 GB to 0.61 GB.
-Total: 15.998500 ms (FindLiveObjects: 1.157400 ms CreateObjectMapping: 0.174400 ms MarkObjects: 14.290300 ms  DeleteObjects: 0.090800 ms)
-
-Opening scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-Serialized file "Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-	Deserialize:            4.615 ms
-	Integration:            18.217 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.057 ms
-	Total Operation Time:   22.891 ms
-Unloading 49 unused Assets / (30.4 KB). Loaded Objects now: 9971.
-Memory consumption went from 0.61 GB to 0.61 GB.
-Total: 17.025700 ms (FindLiveObjects: 0.693400 ms CreateObjectMapping: 0.127000 ms MarkObjects: 15.844700 ms  DeleteObjects: 0.100900 ms)
-
-Opening scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo.unity'
-Serialized file "Assets/IndieMarc/TopDownDemo/TopDownDemo.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo.unity'
-	Deserialize:            4.461 ms
-	Integration:            19.216 ms
-	Integration of assets:  0.001 ms
-	Thread Wait Time:       0.055 ms
-	Total Operation Time:   23.733 ms
-Unloading 62 unused Assets / (48.6 KB). Loaded Objects now: 9813.
-Memory consumption went from 0.61 GB to 0.61 GB.
-Total: 15.996200 ms (FindLiveObjects: 0.858100 ms CreateObjectMapping: 0.135100 ms MarkObjects: 14.659400 ms  DeleteObjects: 0.103600 ms)
-
-Opening scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-Serialized file "Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-	Deserialize:            4.763 ms
-	Integration:            18.443 ms
-	Integration of assets:  0.003 ms
-	Thread Wait Time:       0.106 ms
-	Total Operation Time:   23.315 ms
-Unloading 49 unused Assets / (29.6 KB). Loaded Objects now: 9971.
-Memory consumption went from 0.61 GB to 0.61 GB.
-Total: 16.085400 ms (FindLiveObjects: 0.596200 ms CreateObjectMapping: 0.167400 ms MarkObjects: 14.877700 ms  DeleteObjects: 0.137900 ms)
-
-Opening scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo.unity'
-Serialized file "Assets/IndieMarc/TopDownDemo/TopDownDemo.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo.unity'
-	Deserialize:            4.268 ms
-	Integration:            18.869 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.109 ms
-	Total Operation Time:   23.248 ms
-Unloading 62 unused Assets / (43.4 KB). Loaded Objects now: 9813.
-Memory consumption went from 0.61 GB to 0.61 GB.
-Total: 17.034400 ms (FindLiveObjects: 1.140400 ms CreateObjectMapping: 0.179200 ms MarkObjects: 15.362100 ms  DeleteObjects: 0.093700 ms)
-
-Asset Pipeline Refresh (id=e2f7b2b2444e6274eb441e38a8cfe244): Total: 0.005 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-SpriteAtlasPacking completed in 0.009728 sec
-Reloading assemblies for play mode.
-Reloading assemblies after forced synchronous recompile.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.341 seconds
-Domain Reload Profiling: 1944ms
-	BeginReloadAssembly (391ms)
-		DisableScriptedObjects (56ms)
-		CreateAndSetChildDomain (214ms)
-	RebuildCommonClasses (7ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (151ms)
-		LoadAssemblies (98ms)
-		TypeCache.Refresh (6ms)
-		AnalyzeDomain (19ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1341ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (224ms)
-			ProcessInitializeOnLoadMethodAttributes (98ms)
-			AfterProcessingInitializeOnLoad (4ms)
-		AwakeInstancesAfterBackupRestoration (546ms)
-
-Asset Pipeline Refresh (id=d5860f6e6127e754b9e2a4f9e1308b31): Total: 2.066 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
-	(Values over 0.05ms)
-	Summary:
-		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1403 ms
-		Asset DB Callback time: managed=25 ms, native=0 ms
-		Scripting: domain reloads=1, domain reload time=635 ms, compile time=2 ms, other=0 ms
-		Project Asset Count: scripts=1388, non-scripts=2450
-		Asset File Changes: new=0, changed=0, moved=0, deleted=0
-		Scan Filter Count: 0
-	InvokePackagesCallback: 0.987ms
-	ApplyChangesToAssetFolders: 0.182ms
-	Collect global state as custom dependencies: 0.527ms
-	ProcessAssetsWithTransientArtifactChanges: 0.144ms
-	CategorizeAssets: 30.701ms
-	CompileScripts: 1.605ms
-	ImportOutOfDateAssets: 1348.239ms (1346.788ms without children)
-		CollectScriptTypesHashes: 0.575ms
-		ReloadNativeAssets: 0.542ms
-		UnloadImportedAssets: 0.164ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.409ms
-		ImportSchedulerStart: 0.323ms
-	PostProcessAllAssets: 25.570ms
-		MonoPostProcessAllAssets: 25.567ms
-			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 142.451ms
-			AssetPostprocessor.OnPostprocessAllAssets 41.550ms
-			PostProcessor.OnPostprocessAllAssets 33.024ms
-			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 23.698ms
-			MaterialPostprocessor.OnPostprocessAllAssets 23.423ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 17.455ms
-			AssetChangedListener.OnPostprocessAllAssets 12.452ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 11.866ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 4.253ms
-			SyncVS.PostprocessSyncProject 2.236ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.564ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.514ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.361ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.602ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.424ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.371ms
-			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.356ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.323ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.311ms
-			ThemePostprocessor.OnPostprocessAllAssets 0.295ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.277ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 0.256ms
-			SamplePostprocessor.OnPostprocessAllAssets 0.240ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.230ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.210ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.196ms
-			AssetEvents.OnPostprocessAllAssets 0.170ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.164ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.115ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.103ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.091ms
-			AssetReloadNotifier.OnPostprocessAllAssets 0.083ms
-			AudioContainerPostProcessor.OnPostprocessAllAssets 0.062ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.059ms
-	GatherAllCurrentPrimaryImportResultRevisions: 0.128ms
-	UnloadStreamsBegin: 0.051ms
-	PersistCurrentRevisions: 0.100ms
-	GenerateScriptTypeHashes: 1.562ms
-	GenerateScriptTypeSerializationHashes: 2.722ms
-	Untracked: 654.372ms
-
-LightingSettings: switching bake backend from 2 to 1.
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            4.250 ms
-	Integration:            281.300 ms
-	Integration of assets:  0.005 ms
-	Thread Wait Time:       0.014 ms
-	Total Operation Time:   285.569 ms
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-LightingSettings: switching bake backend from 2 to 1.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            3.051 ms
-	Integration:            19.225 ms
-	Integration of assets:  0.005 ms
-	Thread Wait Time:       0.042 ms
-	Total Operation Time:   22.323 ms
-Unloading 23 unused Assets / (366.2 KB). Loaded Objects now: 9804.
-Memory consumption went from 0.61 GB to 0.61 GB.
-Total: 15.453600 ms (FindLiveObjects: 0.796600 ms CreateObjectMapping: 0.122200 ms MarkObjects: 14.244400 ms  DeleteObjects: 0.043500 ms)
-
-Opening scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-Serialized file "Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-	Deserialize:            4.335 ms
-	Integration:            19.368 ms
-	Integration of assets:  0.001 ms
-	Thread Wait Time:       0.053 ms
-	Total Operation Time:   23.757 ms
-Unloading 48 unused Assets / (166.2 KB). Loaded Objects now: 9973.
-Memory consumption went from 0.61 GB to 0.61 GB.
-Total: 22.061600 ms (FindLiveObjects: 1.114500 ms CreateObjectMapping: 0.187900 ms MarkObjects: 20.402800 ms  DeleteObjects: 0.103700 ms)
-
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2026 ms: Could not connect to server
-Opening scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-Serialized file "Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-	Deserialize:            4.361 ms
-	Integration:            17.879 ms
-	Integration of assets:  0.004 ms
-	Thread Wait Time:       0.038 ms
-	Total Operation Time:   22.281 ms
-Unloading 10 unused Assets / (264.7 KB). Loaded Objects now: 9976.
-Memory consumption went from 0.61 GB to 0.61 GB.
-Total: 15.499200 ms (FindLiveObjects: 0.908500 ms CreateObjectMapping: 0.123900 ms MarkObjects: 14.157700 ms  DeleteObjects: 0.041800 ms)
-
-Opening scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo.unity'
-Serialized file "Assets/IndieMarc/TopDownDemo/TopDownDemo.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo.unity'
-	Deserialize:            4.559 ms
-	Integration:            17.355 ms
-	Integration of assets:  0.003 ms
-	Thread Wait Time:       0.039 ms
-	Total Operation Time:   21.956 ms
-Unloading 62 unused Assets / (173.2 KB). Loaded Objects now: 9815.
-Memory consumption went from 0.61 GB to 0.61 GB.
-Total: 15.911200 ms (FindLiveObjects: 0.702300 ms CreateObjectMapping: 0.261100 ms MarkObjects: 14.605500 ms  DeleteObjects: 0.104600 ms)
-
-Opening scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-Serialized file "Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-	Deserialize:            4.531 ms
-	Integration:            18.277 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.007 ms
-	Total Operation Time:   22.816 ms
-Unloading 49 unused Assets / (30.8 KB). Loaded Objects now: 9973.
-Memory consumption went from 0.61 GB to 0.61 GB.
-Total: 15.891200 ms (FindLiveObjects: 0.771400 ms CreateObjectMapping: 0.139100 ms MarkObjects: 14.619500 ms  DeleteObjects: 0.095900 ms)
-
-Asset Pipeline Refresh (id=d879256ded3c6df498c08f9f52a40dec): Total: 0.006 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-SpriteAtlasPacking completed in 0.009568 sec
-Reloading assemblies for play mode.
-Reloading assemblies after forced synchronous recompile.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.357 seconds
-Domain Reload Profiling: 1952ms
-	BeginReloadAssembly (378ms)
-		DisableScriptedObjects (61ms)
-		CreateAndSetChildDomain (197ms)
-	RebuildCommonClasses (7ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (97ms)
-		TypeCache.Refresh (6ms)
-		AnalyzeDomain (19ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1358ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (227ms)
-			ProcessInitializeOnLoadMethodAttributes (97ms)
-			AfterProcessingInitializeOnLoad (4ms)
-		AwakeInstancesAfterBackupRestoration (551ms)
-
-Asset Pipeline Refresh (id=c38cefb1680aa574196d0dbb5ec91818): Total: 2.073 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
-	(Values over 0.05ms)
-	Summary:
-		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1419 ms
-		Asset DB Callback time: managed=26 ms, native=0 ms
-		Scripting: domain reloads=1, domain reload time=625 ms, compile time=2 ms, other=0 ms
-		Project Asset Count: scripts=1388, non-scripts=2450
-		Asset File Changes: new=0, changed=0, moved=0, deleted=0
-		Scan Filter Count: 0
-	InvokePackagesCallback: 0.955ms
-	ApplyChangesToAssetFolders: 0.173ms
-	Collect global state as custom dependencies: 0.482ms
-	ProcessAssetsWithTransientArtifactChanges: 0.153ms
-	CategorizeAssets: 30.982ms
-	CompileScripts: 1.640ms
-	ImportOutOfDateAssets: 1363.530ms (1362.136ms without children)
-		CollectScriptTypesHashes: 0.561ms
-		ReloadNativeAssets: 0.508ms
-		UnloadImportedAssets: 0.128ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.381ms
-		ImportSchedulerStart: 0.364ms
-	PostProcessAllAssets: 26.151ms
-		MonoPostProcessAllAssets: 26.147ms
-			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 142.451ms
-			AssetPostprocessor.OnPostprocessAllAssets 41.550ms
-			PostProcessor.OnPostprocessAllAssets 33.024ms
-			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 23.698ms
-			MaterialPostprocessor.OnPostprocessAllAssets 23.423ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 17.455ms
-			AssetChangedListener.OnPostprocessAllAssets 12.452ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 12.224ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 4.253ms
-			SyncVS.PostprocessSyncProject 2.205ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.689ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.514ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.373ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.567ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.420ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.371ms
-			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.356ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.323ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.311ms
-			ThemePostprocessor.OnPostprocessAllAssets 0.295ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 0.256ms
-			SamplePostprocessor.OnPostprocessAllAssets 0.240ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.230ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.216ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.213ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.192ms
-			AssetEvents.OnPostprocessAllAssets 0.170ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.165ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.112ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.103ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.091ms
-			AssetReloadNotifier.OnPostprocessAllAssets 0.083ms
-			AudioContainerPostProcessor.OnPostprocessAllAssets 0.062ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.057ms
-	GatherAllCurrentPrimaryImportResultRevisions: 0.169ms
-	PersistCurrentRevisions: 0.098ms
-	GenerateScriptTypeHashes: 1.493ms
-	GenerateScriptTypeSerializationHashes: 2.582ms
-	Untracked: 645.557ms
-
-LightingSettings: switching bake backend from 2 to 1.
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            4.658 ms
-	Integration:            278.425 ms
-	Integration of assets:  0.006 ms
-	Thread Wait Time:       0.004 ms
-	Total Operation Time:   283.093 ms
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-LightingSettings: switching bake backend from 2 to 1.
-Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            3.348 ms
-	Integration:            19.873 ms
-	Integration of assets:  0.005 ms
-	Thread Wait Time:       0.032 ms
-	Total Operation Time:   23.258 ms
-Unloading 23 unused Assets / (36.9 KB). Loaded Objects now: 9968.
-Memory consumption went from 0.61 GB to 0.61 GB.
-Total: 15.189500 ms (FindLiveObjects: 0.803000 ms CreateObjectMapping: 0.122900 ms MarkObjects: 13.973500 ms  DeleteObjects: 0.049600 ms)
-
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-JT8S-VX4V-2PXU-5UM5-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 5774130951012-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Opening scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo.unity'
-Serialized file "Assets/IndieMarc/TopDownDemo/TopDownDemo.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo.unity'
-	Deserialize:            4.151 ms
-	Integration:            19.920 ms
-	Integration of assets:  0.001 ms
-	Thread Wait Time:       0.104 ms
-	Total Operation Time:   24.176 ms
-Unloading 61 unused Assets / (211.0 KB). Loaded Objects now: 9818.
-Memory consumption went from 0.61 GB to 0.61 GB.
-Total: 16.778900 ms (FindLiveObjects: 1.199000 ms CreateObjectMapping: 0.181900 ms MarkObjects: 14.998300 ms  DeleteObjects: 0.107700 ms)
-
-Asset Pipeline Refresh (id=22fed08f9f65a3e4a9d4524a5d0a8258): Total: 0.006 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-SpriteAtlasPacking completed in 0.010535 sec
-Reloading assemblies for play mode.
-Reloading assemblies after forced synchronous recompile.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.366 seconds
-Domain Reload Profiling: 1971ms
-	BeginReloadAssembly (394ms)
-		DisableScriptedObjects (61ms)
-		CreateAndSetChildDomain (214ms)
-	RebuildCommonClasses (7ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (150ms)
-		LoadAssemblies (96ms)
-		TypeCache.Refresh (6ms)
-		AnalyzeDomain (19ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1367ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (231ms)
-			ProcessInitializeOnLoadMethodAttributes (101ms)
-			AfterProcessingInitializeOnLoad (4ms)
-		AwakeInstancesAfterBackupRestoration (555ms)
-
-Asset Pipeline Refresh (id=2ff1b46f55c11a64786b01a80f6fba15): Total: 2.096 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
-	(Values over 0.05ms)
-	Summary:
-		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1432 ms
-		Asset DB Callback time: managed=26 ms, native=0 ms
-		Scripting: domain reloads=1, domain reload time=635 ms, compile time=2 ms, other=0 ms
-		Project Asset Count: scripts=1388, non-scripts=2450
-		Asset File Changes: new=0, changed=0, moved=0, deleted=0
-		Scan Filter Count: 0
-	InvokePackagesCallback: 0.951ms
-	ApplyChangesToAssetFolders: 0.191ms
-	Collect global state as custom dependencies: 0.528ms
-	ProcessAssetsWithTransientArtifactChanges: 0.154ms
-	CategorizeAssets: 31.050ms
-	CompileScripts: 1.639ms
-	ImportOutOfDateAssets: 1372.448ms (1371.086ms without children)
-		CollectScriptTypesHashes: 0.576ms
-		ReloadNativeAssets: 0.534ms
-		UnloadImportedAssets: 0.117ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.443ms
-		ImportSchedulerStart: 0.255ms
-	PostProcessAllAssets: 26.068ms
-		MonoPostProcessAllAssets: 26.065ms
-			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 142.451ms
-			AssetPostprocessor.OnPostprocessAllAssets 41.550ms
-			PostProcessor.OnPostprocessAllAssets 33.024ms
-			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 23.698ms
-			MaterialPostprocessor.OnPostprocessAllAssets 23.423ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 17.455ms
-			AssetChangedListener.OnPostprocessAllAssets 12.452ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 11.821ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 4.253ms
-			SyncVS.PostprocessSyncProject 2.273ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.514ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.341ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.322ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.547ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.427ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.371ms
-			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.356ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.323ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.311ms
-			ThemePostprocessor.OnPostprocessAllAssets 0.295ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 0.256ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.254ms
-			SamplePostprocessor.OnPostprocessAllAssets 0.240ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.230ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.212ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.211ms
-			AssetEvents.OnPostprocessAllAssets 0.170ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.159ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.109ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.103ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.091ms
-			AssetReloadNotifier.OnPostprocessAllAssets 0.083ms
-			AudioContainerPostProcessor.OnPostprocessAllAssets 0.062ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.059ms
-	GatherAllCurrentPrimaryImportResultRevisions: 0.131ms
-	UnloadStreamsBegin: 0.059ms
-	PersistCurrentRevisions: 0.112ms
-	GenerateScriptTypeHashes: 1.537ms
-	GenerateScriptTypeSerializationHashes: 2.672ms
-	Untracked: 657.594ms
-
-LightingSettings: switching bake backend from 2 to 1.
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            4.283 ms
-	Integration:            294.868 ms
-	Integration of assets:  0.004 ms
-	Thread Wait Time:       0.011 ms
-	Total Operation Time:   299.166 ms
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-LightingSettings: switching bake backend from 2 to 1.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            2.927 ms
-	Integration:            18.928 ms
-	Integration of assets:  0.007 ms
-	Thread Wait Time:       0.004 ms
-	Total Operation Time:   21.865 ms
-Unloading 23 unused Assets / (99.5 KB). Loaded Objects now: 9809.
-Memory consumption went from 0.61 GB to 0.61 GB.
-Total: 14.891100 ms (FindLiveObjects: 0.483600 ms CreateObjectMapping: 0.110600 ms MarkObjects: 14.025900 ms  DeleteObjects: 0.043200 ms)
-
-Opening scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-Serialized file "Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity'
-	Deserialize:            4.548 ms
-	Integration:            21.766 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.058 ms
-	Total Operation Time:   26.373 ms
-Unloading 48 unused Assets / (241.4 KB). Loaded Objects now: 9978.
-Memory consumption went from 0.62 GB to 0.62 GB.
-Total: 15.913300 ms (FindLiveObjects: 0.823500 ms CreateObjectMapping: 0.173800 ms MarkObjects: 14.567100 ms  DeleteObjects: 0.107400 ms)
-
-Asset Pipeline Refresh (id=4f26a7b8d63b5944488b95ee2b6c0251): Total: 0.005 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-SpriteAtlasPacking completed in 0.009683 sec
-Reloading assemblies for play mode.
-Reloading assemblies after forced synchronous recompile.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.344 seconds
-Domain Reload Profiling: 1949ms
-	BeginReloadAssembly (396ms)
-		DisableScriptedObjects (62ms)
-		CreateAndSetChildDomain (208ms)
-	RebuildCommonClasses (7ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (150ms)
-		LoadAssemblies (98ms)
-		TypeCache.Refresh (6ms)
-		AnalyzeDomain (19ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1345ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (227ms)
-			ProcessInitializeOnLoadMethodAttributes (98ms)
-			AfterProcessingInitializeOnLoad (3ms)
-		AwakeInstancesAfterBackupRestoration (549ms)
-
-Asset Pipeline Refresh (id=2c2e25bf6d8221e4d87381848eb67dd3): Total: 2.074 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
-	(Values over 0.05ms)
-	Summary:
-		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1409 ms
-		Asset DB Callback time: managed=25 ms, native=0 ms
-		Scripting: domain reloads=1, domain reload time=636 ms, compile time=2 ms, other=0 ms
-		Project Asset Count: scripts=1388, non-scripts=2450
-		Asset File Changes: new=0, changed=0, moved=0, deleted=0
-		Scan Filter Count: 0
-	InvokePackagesCallback: 1.011ms
-	ApplyChangesToAssetFolders: 0.167ms
-	Collect global state as custom dependencies: 0.500ms
-	ProcessAssetsWithTransientArtifactChanges: 0.144ms
-	CategorizeAssets: 32.115ms
-	CompileScripts: 1.702ms
-	ImportOutOfDateAssets: 1350.386ms (1349.070ms without children)
-		CollectScriptTypesHashes: 0.550ms
-		ReloadNativeAssets: 0.543ms
-		UnloadImportedAssets: 0.125ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.397ms
-		ImportSchedulerStart: 0.238ms
-	PostProcessAllAssets: 25.581ms
-		MonoPostProcessAllAssets: 25.578ms
-			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 142.451ms
-			AssetPostprocessor.OnPostprocessAllAssets 41.550ms
-			PostProcessor.OnPostprocessAllAssets 33.024ms
-			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 23.698ms
-			MaterialPostprocessor.OnPostprocessAllAssets 23.423ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 17.455ms
-			AssetChangedListener.OnPostprocessAllAssets 12.452ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 11.762ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 4.253ms
-			SyncVS.PostprocessSyncProject 2.362ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.563ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.514ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.299ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.653ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.448ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.371ms
-			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.356ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.323ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.311ms
-			ThemePostprocessor.OnPostprocessAllAssets 0.295ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 0.256ms
-			SamplePostprocessor.OnPostprocessAllAssets 0.240ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.230ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.212ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.209ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.196ms
-			AssetEvents.OnPostprocessAllAssets 0.170ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.153ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.112ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.103ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.091ms
-			AssetReloadNotifier.OnPostprocessAllAssets 0.083ms
-			AudioContainerPostProcessor.OnPostprocessAllAssets 0.062ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.061ms
-	GatherAllCurrentPrimaryImportResultRevisions: 0.128ms
-	PersistCurrentRevisions: 0.101ms
-	GenerateScriptTypeHashes: 1.551ms
-	GenerateScriptTypeSerializationHashes: 2.721ms
-	Untracked: 658.038ms
-
-LightingSettings: switching bake backend from 2 to 1.
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            4.217 ms
-	Integration:            283.366 ms
-	Integration of assets:  0.004 ms
-	Thread Wait Time:       0.009 ms
-	Total Operation Time:   287.596 ms
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-LightingSettings: switching bake backend from 2 to 1.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            3.304 ms
-	Integration:            20.355 ms
-	Integration of assets:  0.007 ms
-	Thread Wait Time:       0.032 ms
-	Total Operation Time:   23.697 ms
-Unloading 23 unused Assets / (0.5 MB). Loaded Objects now: 9972.
-Memory consumption went from 0.62 GB to 0.62 GB.
-Total: 15.119300 ms (FindLiveObjects: 0.644100 ms CreateObjectMapping: 0.134500 ms MarkObjects: 14.015100 ms  DeleteObjects: 0.050800 ms)
-
-Opening scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo.unity'
-Serialized file "Assets/IndieMarc/TopDownDemo/TopDownDemo.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/TopDownDemo/TopDownDemo.unity'
-	Deserialize:            4.526 ms
-	Integration:            20.164 ms
-	Integration of assets:  0.001 ms
-	Thread Wait Time:       0.123 ms
-	Total Operation Time:   24.814 ms
-Unloading 60 unused Assets / (215.9 KB). Loaded Objects now: 9823.
-Memory consumption went from 0.62 GB to 0.62 GB.
-Total: 16.453900 ms (FindLiveObjects: 0.909000 ms CreateObjectMapping: 0.169500 ms MarkObjects: 14.935200 ms  DeleteObjects: 0.090100 ms)
-
-Asset Pipeline Refresh (id=c345d5bb2edb8494880adde789ca91af): Total: 0.007 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-SpriteAtlasPacking completed in 0.011455 sec
-Reloading assemblies for play mode.
-Reloading assemblies after forced synchronous recompile.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.352 seconds
-Domain Reload Profiling: 1941ms
-	BeginReloadAssembly (382ms)
-		DisableScriptedObjects (56ms)
-		CreateAndSetChildDomain (205ms)
-	RebuildCommonClasses (7ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (148ms)
-		LoadAssemblies (96ms)
-		TypeCache.Refresh (6ms)
-		AnalyzeDomain (20ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1353ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (232ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
-			AfterProcessingInitializeOnLoad (3ms)
-		AwakeInstancesAfterBackupRestoration (557ms)
-
-Asset Pipeline Refresh (id=10af0d0a41909624eb857f1672e6776a): Total: 2.066 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
-	(Values over 0.05ms)
-	Summary:
-		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1419 ms
-		Asset DB Callback time: managed=25 ms, native=0 ms
-		Scripting: domain reloads=1, domain reload time=618 ms, compile time=2 ms, other=0 ms
-		Project Asset Count: scripts=1388, non-scripts=2450
-		Asset File Changes: new=0, changed=0, moved=0, deleted=0
-		Scan Filter Count: 0
-	InvokePackagesCallback: 0.981ms
-	ApplyChangesToAssetFolders: 0.207ms
-	Collect global state as custom dependencies: 0.623ms
-	ProcessAssetsWithTransientArtifactChanges: 0.150ms
-	CategorizeAssets: 30.966ms
-	CompileScripts: 1.712ms
-	ImportOutOfDateAssets: 1358.585ms (1357.204ms without children)
-		CollectScriptTypesHashes: 0.566ms
-		ReloadNativeAssets: 0.530ms
-		UnloadImportedAssets: 0.125ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.393ms
-		ImportSchedulerStart: 0.320ms
-	PostProcessAllAssets: 25.842ms
-		MonoPostProcessAllAssets: 25.839ms
-			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 142.451ms
-			AssetPostprocessor.OnPostprocessAllAssets 41.550ms
-			PostProcessor.OnPostprocessAllAssets 33.024ms
-			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 23.698ms
-			MaterialPostprocessor.OnPostprocessAllAssets 23.423ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 17.455ms
-			AssetChangedListener.OnPostprocessAllAssets 12.452ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 12.174ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 4.253ms
-			SyncVS.PostprocessSyncProject 2.256ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.514ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.423ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.401ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.583ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.449ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.371ms
-			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.356ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.323ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.311ms
-			ThemePostprocessor.OnPostprocessAllAssets 0.295ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 0.256ms
-			SamplePostprocessor.OnPostprocessAllAssets 0.240ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.230ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.222ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.210ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.192ms
-			AssetEvents.OnPostprocessAllAssets 0.170ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.158ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.110ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.103ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.091ms
-			AssetReloadNotifier.OnPostprocessAllAssets 0.083ms
-			AudioContainerPostProcessor.OnPostprocessAllAssets 0.062ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.061ms
-	GatherAllCurrentPrimaryImportResultRevisions: 0.130ms
-	UnloadStreamsBegin: 0.050ms
-	PersistCurrentRevisions: 0.102ms
-	GenerateScriptTypeHashes: 1.528ms
-	GenerateScriptTypeSerializationHashes: 2.669ms
-	Untracked: 641.663ms
-
-LightingSettings: switching bake backend from 2 to 1.
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            4.153 ms
-	Integration:            292.709 ms
-	Integration of assets:  0.004 ms
-	Thread Wait Time:       0.013 ms
-	Total Operation Time:   296.879 ms
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-LightingSettings: switching bake backend from 2 to 1.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            2.905 ms
-	Integration:            18.753 ms
-	Integration of assets:  0.004 ms
-	Thread Wait Time:       0.012 ms
-	Total Operation Time:   21.673 ms
-Unloading 24 unused Assets / (273.3 KB). Loaded Objects now: 9799.
-Memory consumption went from 0.62 GB to 0.62 GB.
-Total: 14.883300 ms (FindLiveObjects: 0.575700 ms CreateObjectMapping: 0.140300 ms MarkObjects: 13.856300 ms  DeleteObjects: 0.047200 ms)
-
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2053 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2042 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2047 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2030 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2047 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2037 ms: Could not connect to server
-Asset Pipeline Refresh (id=1324d49cdc4511444a2ee2b4e4e106d1): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2035 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2024 ms: Could not connect to server
-Asset Pipeline Refresh (id=92b612c014aa89144a2b5de2aa5217e2): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: [ (91) to any virtual key
-GetVirtualKey: Could not map char: ] (93) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Opening scene 'Assets/IndieMarc/PlatformerDemo/PlatformerDemo.unity'
-Serialized file "Assets/IndieMarc/PlatformerDemo/PlatformerDemo.unity" contains a RenderSettings object at version 8, below the supported minimum (9). Open and re-save the file to upgrade.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/IndieMarc/PlatformerDemo/PlatformerDemo.unity'
-	Deserialize:            2.928 ms
-	Integration:            31.847 ms
-	Integration of assets:  0.006 ms
-	Thread Wait Time:       0.160 ms
-	Total Operation Time:   34.941 ms
-Unloading 183 unused Assets / (243.3 KB). Loaded Objects now: 8994.
-Memory consumption went from 0.63 GB to 0.63 GB.
-Total: 17.275700 ms (FindLiveObjects: 0.638200 ms CreateObjectMapping: 0.198800 ms MarkObjects: 15.943100 ms  DeleteObjects: 0.273400 ms)
-
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2039 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2049 ms: Could not connect to server
-Asset Pipeline Refresh (id=df9f9a1927e7ab9449e77aaba6ad0887): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2019 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2047 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2035 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2055 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2048 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2055 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2061 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2066 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2033 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2036 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2033 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2055 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2043 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2045 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2041 ms: Could not connect to server
-Asset Pipeline Refresh (id=735a9b56e9d2e7643b82b4227071f0de): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2032 ms: Could not connect to server
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2045 ms: Could not connect to server
-Asset Pipeline Refresh (id=cfdf852811f6d1b4ca1d37513c263c11): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2065 ms: Could not connect to server
-Asset Pipeline Refresh (id=e270adbb970bb544c934fcbdc80db2b8): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2034 ms: Could not connect to server
-Asset Pipeline Refresh (id=130359686a1be27419b1166c89766029): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=653b397ae50d83f4bb26e138c243bc55): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=d4b78ce1651f4a64583af4da196280ea): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=85b175085f854f7498e4f65c5f8c7e74): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2038 ms: Could not connect to server
-Asset Pipeline Refresh (id=91122f3ea05568a49ae77ae6be031551): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=96c7cececee098747b60a47294c844cc): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2025 ms: Could not connect to server
-Asset Pipeline Refresh (id=67a95a12280c7d941ab6015f43b7cdb2): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: [ (91) to any virtual key
-GetVirtualKey: Could not map char: ] (93) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2036 ms: Could not connect to server
-Asset Pipeline Refresh (id=9699cfb5197547d43a5b0c1699c5ad18): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2047 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2045 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2021 ms: Could not connect to server
-Asset Pipeline Refresh (id=edc4132294af9074aa1237d69a4260dc): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2055 ms: Could not connect to server
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-Curl error 7: Failed to connect to services.unity.com port 443 via 127.0.0.1 after 2042 ms: Could not connect to server
-UnityConnectWebRequestException: Token Exchange failed due a failure with the web request.
-  at UnityEditor.Connect.TokenExchange.VerifyTokenExchangeResponse (UnityEngine.Networking.UnityWebRequest exchangeRequest) [0x00014] in <86ff5cbd32484068aca9e84e94736ae0>:0 
-  at UnityEditor.Connect.TokenExchange.TokenExchangeRequestAsync (UnityEditor.Connect.TokenExchangeRequest tokenExchangeRequest, System.Threading.CancellationToken cancellationToken) [0x00195] in <86ff5cbd32484068aca9e84e94736ae0>:0 
-  at UnityEditor.Connect.TokenExchange.GetServiceTokenAsync (System.String genesisToken, System.Threading.CancellationToken cancellationToken) [0x0007b] in <86ff5cbd32484068aca9e84e94736ae0>:0 
-  at UnityEditor.Connect.ServiceToken.GetServiceTokenAsync (System.String genesisToken, System.Threading.CancellationToken cancellationToken) [0x000f3] in <86ff5cbd32484068aca9e84e94736ae0>:0 
-  at UnityEditor.Connect.UnityConnect.RequestNewServiceToken () [0x00080] in <86ff5cbd32484068aca9e84e94736ae0>:0 
-  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+<>c.<ThrowAsync>b__7_0 (System.Object state) [0x00000] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 
-  at UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () [0x00000] in <93e6391e4688454a985ab5dc6ed6bd98>:0 
-  at UnityEngine.UnitySynchronizationContext.Exec () [0x00052] in <93e6391e4688454a985ab5dc6ed6bd98>:0 
-  at UnityEngine.UnitySynchronizationContext.ExecuteTasks () [0x0000e] in <93e6391e4688454a985ab5dc6ed6bd98>:0 
-UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
-
-[Licensing::Client] Successfully resolved entitlement details
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2034 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2037 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2052 ms: Could not connect to server
-Scanning for USB devices : 4.526ms
-Scanning for USB devices : 4.399ms
-Scanning for USB devices : 3.976ms
-Scanning for USB devices : 3.971ms
-Scanning for USB devices : 4.303ms
-Scanning for USB devices : 3.417ms
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2069 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2057 ms: Could not connect to server
-Asset Pipeline Refresh (id=0cf574005eae02d4dafd5611d5cd90f4): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2033 ms: Could not connect to server
-Asset Pipeline Refresh (id=4e61061945fcb484c99e43badc9d33e6): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=9b671efceb5678e4bb62a2bbf72ce70b): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2040 ms: Could not connect to server
-Asset Pipeline Refresh (id=6531ded7baeb8d74cb3efb945653e472): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: [ (91) to any virtual key
-GetVirtualKey: Could not map char: ] (93) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2029 ms: Could not connect to server
-Asset Pipeline Refresh (id=343f1df31289a8c4298273676654378b): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2028 ms: Could not connect to server
-Asset Pipeline Refresh (id=fe99042c19e6807448bb510a2e21dcd6): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2051 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2068 ms: Could not connect to server
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-JT8S-VX4V-2PXU-5UM5-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 5774130951012-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2036 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2034 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2055 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2048 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2023 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2054 ms: Could not connect to server
-Asset Pipeline Refresh (id=db2e34735dc3e744da4507d9645fa857): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2040 ms: Could not connect to server
-Asset Pipeline Refresh (id=5781705978567764b961406d94a9386d): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=920aeeded65377645b3e58b874b40773): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=f2463b1b94c8ddb40ad5d2497c14840a): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2018 ms: Could not connect to server
-Asset Pipeline Refresh (id=cc394c8d02973c24b8529a9ac3bdb159): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=0d6e51d965dabc04fb8bba9e6fa4cf3c): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=cf7432085a7636840ab7110fd319fc56): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=43da3102ad5d0af4c9c16ccc928de8d2): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2042 ms: Could not connect to server
-Asset Pipeline Refresh (id=59e066c4443201f45992c92418cf1116): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=2952aae668202cf47a82687258239dc1): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=df1b804393ac6f44ca25f50791223d7e): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=08235b1702b8ac04081acb8e39ea587b): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2053 ms: Could not connect to server
-Asset Pipeline Refresh (id=0d3eb1ef8c7fdac44ad1757b4f6d5d43): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=3cbac8b032d56734f9348c886ec65b2f): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2034 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 3839 ms: Could not connect to server
-Asset Pipeline Refresh (id=629097399ba54f748b3dc15d6c7caba9): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=6a7ad8bb07a88e240b289b62924ffc4f): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2049 ms: Could not connect to server
-Asset Pipeline Refresh (id=c4a5bbce34039d1498dc3983e2b1ac17): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=4d62b8708fcfb874cb55a39aae7bc477): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=968dcbe04526eb94db47159fc382fe19): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=607ff01ec8b52c04dac90d77003c664a): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[Worker2] Imported GUID: 758f102eb2cdaab4ca5cdfce800838d2 - Path: Assets/IndieMarc/PlatformerDemo/Scripts - Importer: PreviewImporter -> (ImportResultId: 'ebb470f67f99a0f6abde10677ed93213') in 0.0203693 seconds
-[Worker2] Imported GUID: 9b50b79a901c84542a13b18e4ab06191 - Path: Assets/IndieMarc/PlatformerDemo/Scripts/CarryItem.cs - Importer: PreviewImporter -> (ImportResultId: '9d66ef0968abd91cf44244bfef761bf1') in 0.0107119 seconds
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: [ (91) to any virtual key
-GetVirtualKey: Could not map char: ] (93) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2040 ms: Could not connect to server
-Asset Pipeline Refresh (id=c3383f04d62beb04495a3a35a99bf74b): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[Worker2] Imported GUID: a5421e96f16710b4f81fe0ad10b67abf - Path: Assets/IndieMarc/PlatformerDemo/Scripts/CharacterAnim.cs - Importer: PreviewImporter -> (ImportResultId: 'a37e852f9205c117abef38dc39a73969') in 0.0082356 seconds
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Asset Pipeline Refresh (id=576dd84b18f56b847b36a6e643894616): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[Worker2] Imported GUID: 854ab241cb96bcc44b8e766dd629ebf9 - Path: Assets/IndieMarc/PlatformerDemo/Scripts/CharacterHoldItem.cs - Importer: PreviewImporter -> (ImportResultId: 'dfa3a864a8e040b603a6564726584310') in 0.0060539 seconds
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2029 ms: Could not connect to server
-Asset Pipeline Refresh (id=cb5feba284ca16644815c259e4a8ad1e): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[Worker2] Imported GUID: 80e0030263dbb1a40957075a51e46ba0 - Path: Assets/IndieMarc/PlatformerDemo/Scripts/FollowCamera.cs - Importer: PreviewImporter -> (ImportResultId: 'e5939c54f044987bc4b38d69ae0d52a2') in 0.0056101 seconds
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Asset Pipeline Refresh (id=dc9fba48b3729e84581073f31bf68362): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[Worker2] Imported GUID: 755ecac09c1a1b84cb565d5c02636242 - Path: Assets/IndieMarc/PlatformerDemo/Scripts/Lever.cs - Importer: PreviewImporter -> (ImportResultId: 'fe6d4c070ad5b77130e391327269d887') in 0.0060229 seconds
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Asset Pipeline Refresh (id=572adfd515befcb4d8ba84974c6c55d2): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2044 ms: Could not connect to server
-[Worker2] Imported GUID: df1b9f4bb36dfa1418ddb515202e6318 - Path: Assets/IndieMarc/PlatformerDemo/Scripts/ParallaxBackground.cs - Importer: PreviewImporter -> (ImportResultId: '10d1300b21b3a4d3423be5122db4a8c2') in 0.0059679 seconds
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Asset Pipeline Refresh (id=f44ddc1752958ce4eb093251302b8fce): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[Worker2] Imported GUID: 792237b3c87ee6b4c90a74cd87026a89 - Path: Assets/IndieMarc/PlatformerDemo/Scripts/PlayerCharacter.cs - Importer: PreviewImporter -> (ImportResultId: '14c3166c0aaf54149bcd68db96c03a05') in 0.0056736 seconds
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Asset Pipeline Refresh (id=8f961c758d70d1243b7894c3820e76a8): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[Worker2] Imported GUID: ec80819f2b286fd4a94401058273799d - Path: Assets/IndieMarc/PlatformerDemo/Scripts/PlayerControls.cs - Importer: PreviewImporter -> (ImportResultId: 'b9f9ed2ecfe837b95cbe87d3e40fb5a3') in 0.0061687 seconds
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Asset Pipeline Refresh (id=5b73f5a0e0ef5da4d93985bfe2d0e435): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[Worker2] Imported GUID: de163ebddc049cf458fd789def72b6ae - Path: Assets/IndieMarc/PlatformerDemo/Scripts/TheAudio.cs - Importer: PreviewImporter -> (ImportResultId: '0da60923794ada7a9be81e7de9eadc3e') in 0.0055804 seconds
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2054 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2471 ms: Could not connect to server
-Asset Pipeline Refresh (id=4026ad191fed58548ad18ed36e049a21): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=eb63d357c8c57ea47ba52eaac85a52dc): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2048 ms: Could not connect to server
-Asset Pipeline Refresh (id=b6190638a449add438e5dbb639b30c2a): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=268f827203f712f4fa655f8491416e59): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=07b1e9050d787d34096be272a31b1ddc): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=dc43c7b78aed4b54ba4be8168d7ee5e8): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2042 ms: Could not connect to server
-Asset Pipeline Refresh (id=b2a1546c8223d714a91e3e1302444582): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Asset Pipeline Refresh (id=73a72bc8f255d1d4f9bac78a800afa7e): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Asset Pipeline Refresh (id=17062ceda4d2af34d8ee9c37332debe2): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=7c07db8cb85b0bd45a72dc1fb80e5b80): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=e1c3c87a34ac5ff40a7cd8364cc69024): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=edbf8687cac04db48a1aeea85887be33): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2051 ms: Could not connect to server
-Asset Pipeline Refresh (id=7a192e430343c1746a259d5df886fc08): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2045 ms: Could not connect to server
-Asset Pipeline Refresh (id=9976e8f22febec5468b082a027a6b273): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2035 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2055 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2040 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2051 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2058 ms: Could not connect to server
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 via 127.0.0.1 after 2055 ms: Could not connect to server
-Curl error limit reached: 100 consecutive messages printed
-Asset Pipeline Refresh (id=18fc9ef4651ef4f428af16dda29133b8): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=fb5430e211364cc44b25333703837336): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=228ebebc369f699479ed6da555080b13): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-MonoPathRemapper: Attempts to remap: 82293; Successful remaps: 56532
+MonoPathRemapper: Attempts to remap: 34993; Successful remaps: 18892
 Serialized file version minimum: 23, current 23
-[LAYOUT] About to save layout C:\Users\MSI\OPD_laba_2\UserSettings\Layouts\default-6000.dwlt
-[LAYOUT] About to save layout C:/Users/MSI/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
-Importing 'GUID: 9272c368c2ea4004d93dd9539f956312 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees1.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 9272c368c2ea4004d93dd9539f956312' -> (Import Result ID: '76e5956d2fbfea526cb1584690da775b') in 0.012 seconds [static dependencies only]. Details - ImportResultOutputID=38f831e3d97a35539c97757cfb9449fb DependenciesID=1446d2897c05b5c5fd81e635c8f3455f StaticDependenciesID=31919802968add5b7eb858a7d8e746b5 
-Importing 'GUID: b5bdfecbec6d4294d9aa8cf6fcf42aa1 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees2.mat' with importer (NativeFormatImporter)
-Imported 'GUID: b5bdfecbec6d4294d9aa8cf6fcf42aa1' -> (Import Result ID: '0f44de721a14eac77fb13c5285e99095') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=b6be42de1d61eda218834786998b566a DependenciesID=108d7cf895ec196cea9a478bd1123b4c StaticDependenciesID=f0331308a5b956e023ca9eceb817e5f4 
-Importing 'GUID: 063491c5039ab6b4ead24f95f52641b5 - Path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees3.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 063491c5039ab6b4ead24f95f52641b5' -> (Import Result ID: 'cbbbd3500ad121544f495c7f8806d542') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=15e100224ad07def022def641962d0d1 DependenciesID=dea14b6cc99f68a947b2dda4a4374854 StaticDependenciesID=67fb250be0706912d9b83490792f9d93 
-Refreshing native plugins compatible for Editor in 5.20 ms, found 4 plugins.
-Asset Pipeline Refresh (id=4b9d018c6ffca2f469f5c28cc0cb334d): Total: 0.172 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[LAYOUT] About to save layout /home/mage/opd_lab_2/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /home/mage/.config/unity3d/Preferences/Editor-5.x/Layouts/current/default-6000.dwlt
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
 Input System module state changed to: ShutdownInProgress.
 Input Polling Thread exited.
 Input System module state changed to: Shutdown.
-[Physics::Module] Cleanup current backend.
-[Physics::Module] Id: 0xf2b8ea05
-[Licensing::IpcConnector] LicenseClient-MSI-notifications channel disconnected successfully.
-[Licensing::IpcConnector] LicenseClient-MSI channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-mage-6000.6.3-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-mage-6000.6.3 channel disconnected successfully.
+Shut down UDS service system complete
 Lingering sessions upon destruction of worker manager
 Unity Data Store service was successfully shut down
 UDS shutting down local client system
-Shut down UDS service system complete
 AcceleratorClientConnectionCallback - disconnected - :0
 Cleanup mono
 CodeReloadManager destroyed
-abort_threads: Failed aborting id: 00000000000051CC, mono_thread_manage will ignore it
+debugger-agent: Unable to listen on 130
 
-abort_threads: Failed aborting id: 00000000000051CC, mono_thread_manage will ignore it
-
-debugger-agent: Unable to listen on 5124
+SDL leaked 2 allocations
+Turn on UNITY_SDL_ALLOCATION_TRACKING for detailed information.
 VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
 Checking for leaked weakptr:
   Found no leaked weakptrs.
 [Package Manager] Server process was shutdown
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1790791059637,"processId":23748,"allocatedMemory":20273631,"memoryLabels":[{"Default":228845},{"Permanent":15516},{"NewDelete":86601},{"Thread":4205600},{"Manager":38205},{"VertexData":8},{"Geometry":816},{"Shader":853474},{"Material":68},{"TextureCache":6536},{"GfxDevice":77496},{"Animation":11368},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":269760},{"Input":45280},{"JobScheduler":256},{"TextLib":48817},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1411648},{"BaseObject":282384},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":60863},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":636085},{"StaticString":3808},{"Utility":2676082},{"PoolAlloc":2264},{"AI":80},{"TypeTree":17378},{"ScriptManager":63280},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"CloudService":8592},{"WebRequest":592},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":4860},{"Camera":62441},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":592},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":1071943},{"EditorUtility":3391015},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4668805},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36881},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":209},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3596},{"Windowing":456},{"Licensing":696},{"AssetReference":32},{"IPCStream":32}]}
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1790859534115,"processId":3659109,"allocatedMemory":11402123,"memoryLabels":[{"Default":252710},{"Permanent":16152},{"Thread":1052296},{"Manager":51089},{"VertexData":8},{"Geometry":408},{"Shader":854364},{"Material":68},{"TextureCache":304},{"GfxDevice":36608},{"Animation":1264},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":18160},{"Input":60256},{"JobScheduler":256},{"TextLib":41010},{"Mono":80},{"MonoCode":96},{"ScriptingNativeRuntime":155088},{"BaseObject":51720},{"Resource":1076},{"Renderer":2368},{"Transform":4717},{"File":13139},{"WebCam":80},{"Culling":32},{"Terrain":11346},{"Wind":24},{"String":497396},{"StaticString":3808},{"Utility":2683952},{"Curl":1388},{"PoolAlloc":2056},{"AI":80},{"TypeTree":18285},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7408},{"Director":8032},{"CloudService":8000},{"WebRequest":5061},{"VR":49554},{"SceneManager":640},{"Video":64},{"LazyScriptCache":32},{"NativeArray":540},{"Camera":4913},{"Secure":8049},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57552},{"StaticSafetyDebugInfo":278528},{"Analytics":800},{"Hierarchy":1436},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":267732},{"EditorUtility":79755},{"VersionControl":8},{"Undo":963},{"AssetDatabase":4668692},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":37751},{"Upm":1836},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":214},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2520},{"Windowing":480},{"Licensing":12725},{"AssetReference":32},{"IPCStream":32}]}
