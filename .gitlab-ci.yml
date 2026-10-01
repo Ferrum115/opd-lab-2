@@ -1,89 +1,49 @@
-name: Test and Build Project
+stages:
+  - test
+  - build
 
-on:
-  workflow_dispatch:
-  push: 
+default:
+  image: gameci/unity-builder:2022.3.0f1-webgl-3
+  before_script:
+    - mkdir -p /root/.local/share/unity3d/Unity/
+    - cp "$UNITY_LICENSE" /root/.local/share/unity3d/Unity/Unity_lic.ulf
 
-#  Разрешения на запись в Checks API
-permissions:
-  checks: write
-  contents: read
+.unity_cache:
+  cache:
+    key: "Library-$CI_COMMIT_REF_SLUG"
+    paths:
+      - Library/
 
-jobs:
-  testProject:
-    name: Test in ${{ lab_opd.testMode }}
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      lab_opd:
-        projectPath:
-          - ./
-        testMode:
-          - playmode
-          - editmode
+# 1. Запуск тестов (PlayMode & EditMode)
+test-playmode:
+  stage: test
+  extends: .unity_cache
+  script:
+    - unity-builder --testMode playmode
+  artifacts:
+    when: always
+    paths:
+      - playmode-artifacts/
 
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          lfs: true
+test-editmode:
+  stage: test
+  extends: .unity_cache
+  script:
+    - unity-builder --testMode editmode
+  artifacts:
+    when: always
+    paths:
+      - editmode-artifacts/
 
-      - uses: actions/cache@v4
-        with:
-          path: ${{ lab_opd.projectPath }}/Library
-          key: Library-${{ lab_opd.projectPath }}
-          restore-keys: |
-            Library-
-
-      - uses: game-ci/unity-test-runner@v4
-        id: tests
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-        with:
-          projectPath: ${{ lab_opd.projectPath }}
-          testMode: ${{ lab_opd.testMode }}
-          artifactsPath: ${{ lab_opd.testMode }}-artifacts
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-          checkName: ${{ lab_opd.testMode }} Test Results
-
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: Test results for ${{ lab_opd.testMode }}
-          path: ${{ steps.tests.outputs.artifactsPath }}
-
-  buildForAllDesiredPlatforms:
-    needs: testProject
-    name: Build for ${{ lab_opd.targetPlatform }}
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      lab_opd:
-        targetPlatform:
-          - StandaloneWindows64
-
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          lfs: true
-
-      - uses: actions/cache@v4
-        with:
-          path: Library
-          key: Library-${{ lab_opd.targetPlatform }}
-          restore-keys: Library-
-
-      - uses: game-ci/unity-builder@v4
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-        with:
-          targetPlatform: ${{ lab_opd.targetPlatform }}
-
-      - uses: actions/upload-artifact@v4
-        with:
-          name: Build-${{ lab_opd.targetPlatform }}
-          path: build/${{ lab_opd.targetPlatform }}
+# 2. Сборка проекта под StandaloneWindows64
+build-windows:
+  stage: build
+  extends: .unity_cache
+  needs:
+    - test-playmode
+    - test-editmode
+  script:
+    - unity-builder --targetPlatform StandaloneWindows64
+  artifacts:
+    paths:
+      - build/StandaloneWindows64/
