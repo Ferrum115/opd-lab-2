@@ -4,6 +4,8 @@ stages:
 
 default:
   image: gameci/unity-builder:2022.3.0f1-webgl-3
+  tags:
+    - docker
   before_script:
     - mkdir -p /root/.local/share/unity3d/Unity/
     - cp "$UNITY_LICENSE" /root/.local/share/unity3d/Unity/Unity_lic.ulf
