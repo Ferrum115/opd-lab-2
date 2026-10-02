@@ -100,7 +100,6 @@ namespace IndieMarc.Platformer
             contact_filter.layerMask = ground_layer;
             contact_filter.useLayerMask = true;
             contact_filter.useTriggers = false;
-
         }
 
         void OnDestroy()
@@ -274,7 +273,7 @@ namespace IndieMarc.Platformer
 
             Vector2 raycast_start = rigid.position;
             Vector2 orientation = detect_ceiled ? Vector2.up : Vector2.down;
-            float radius = GetSize().x * 0.5f * transform.localScale.y; ;
+            float radius = GetSize().x * 0.5f * transform.localScale.y;
 
             if (capsule_coll != null)
             {
@@ -308,7 +307,16 @@ namespace IndieMarc.Platformer
         {
             transform.position = pos;
             move = Vector2.zero;
+            move_input = Vector2.zero;
             is_jumping = false;
+
+            // Если персонаж был мертв, при телепортации сбрасываем статус смерти и восстанавливаем параметры
+            if (is_dead)
+            {
+                is_dead = false;
+                hp = max_hp;
+                EnableControls();
+            }
         }
 
         public void HealDamage(float heal)
@@ -322,13 +330,13 @@ namespace IndieMarc.Platformer
 
         public void TakeDamage(float damage)
         {
-            if (!is_dead && !invulnerable && hit_timer > 0f)
+            if (!is_dead && !invulnerable)
             {
                 hp -= damage;
-                hit_timer = -1f;
 
                 if (hp <= 0f)
                 {
+                    hp = 0f;
                     Kill();
                 }
                 else
@@ -351,6 +359,19 @@ namespace IndieMarc.Platformer
                 if (onDeath != null)
                     onDeath.Invoke();
             }
+        }
+
+        public void Respawn(Vector3 respawnPosition)
+        {
+            is_dead = false;
+            hp = max_hp;
+            move = Vector2.zero;
+            move_input = Vector2.zero;
+            is_jumping = false;
+            is_double_jump = false;
+            
+            transform.position = respawnPosition;
+            EnableControls();
         }
 
         public void DisableControls() { disable_controls = true; }
@@ -443,5 +464,4 @@ namespace IndieMarc.Platformer
             return list;
         }
     }
-
 }
